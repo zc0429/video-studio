@@ -12,7 +12,7 @@
     "width": 1080,
     "height": 1920,
     "fps": 60,
-    "duration_s": 40,
+    "duration_s": null,
     "native_fps_claim": false,
     "frame_rate_mode": "cfr"
   },
@@ -47,5 +47,11 @@
   "assets": [],
   "audio": {
     "required": true
+  },
+  "timing": {
+    "selection_basis": "",
+    "validation_method": null,
+    "evidence_files": [],
+    "note": "Select final duration from script/read-through/animatic before production; trial duration is not a final limit."
   }
 }

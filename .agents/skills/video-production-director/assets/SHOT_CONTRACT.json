@@ -21,5 +21,7 @@
   "trials": [],
   "trial_limit_override_reason": "",
   "fps_conversion": null,
-  "source_cadence_evidence": ""
+  "source_cadence_evidence": "",
+  "image_asset_ids": [],
+  "motion_route": "not_selected"
 }

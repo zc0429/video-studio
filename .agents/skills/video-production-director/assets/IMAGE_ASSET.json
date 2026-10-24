@@ -1,0 +1,22 @@
+{
+  "asset_id": "",
+  "role": "style_frame | identity_reference | environment | texture | shot_image",
+  "shot_ids": [],
+  "story_purpose": "",
+  "tool_or_provider": null,
+  "model_version_if_exposed": null,
+  "prompt": "",
+  "reference_files_and_usage_basis": [],
+  "supported_controls_actually_used": {},
+  "seed_if_exposed": null,
+  "output_file": null,
+  "sha256": null,
+  "identity_and_style_checks": [],
+  "acceptance": {"status": "draft", "basis": "", "review_evidence": []},
+  "motion_plan": {"route": "not_selected", "main_action": "", "camera": "", "capability_evidence": null, "trial_evidence": null},
+  "source_motion_fps": null,
+  "usage_terms_basis": "",
+  "cost_and_quota_basis": "",
+  "known_cost": null,
+  "known_limitations": []
+}

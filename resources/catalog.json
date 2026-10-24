@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "checked_at": "2026-10-24",
   "status_contract": "packaging status is separate from availability in a particular task",
   "resources": [
@@ -9,7 +9,7 @@
       "source": ".agents/skills/video-production-director/SKILL.md",
       "purpose": "研究、导演流程、最终审核模式和复盘",
       "packaging_status": "bundled",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "runtime_status": "manual_read_supported; automatic_discovery_unverified",
       "validation": "Auxiliary regression tests and repository checks; see VALIDATION.json for current results. No full creative film test."
     },
@@ -134,6 +134,16 @@
       "packaging_status": "bundled metadata and analysis cards; no image binaries",
       "runtime_status": "files only; actual chosen sources must be inspected in each project",
       "validation": "Three exact museum images inspected with source identity/usage checks; no motion/audio review or production-success claim"
+    },
+    {
+      "id": "host-image-generation",
+      "kind": "capability",
+      "source": "actual host tool/service catalog at task time",
+      "purpose": "风格帧、主体/环境/材质与镜头图像资产；视频运动另选路线",
+      "packaging_status": "workflow reference only; no model or credentials",
+      "runtime_status": "unknown_in_new_environment",
+      "instructions": ".agents/skills/video-production-director/references/image-assets.md",
+      "validation": "No image generation/model connection test performed in this workflow-editing task; discover and verify actual capability per production task"
     }
   ]
 }

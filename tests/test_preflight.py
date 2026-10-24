@@ -38,6 +38,22 @@ class PreflightTests(unittest.TestCase):
     def test_production_duration_must_fit_frame_grid(self):
         self.authorize();self.p['format']['duration_s']=40.001;self.p['shots'][-1]['end_s']=40.001
         self.check_error(self.p,'frame grid','production')
+    def test_development_can_leave_duration_unresolved(self):
+        self.p['format']['duration_s']=None
+        result=pf.check_project(self.p)
+        self.assertTrue(result['passed']);self.assertNotIn('expected_frames',result['derived'])
+        self.assertTrue(any('unresolved' in w for w in result['warnings']))
+    def test_production_needs_selected_duration(self):
+        self.authorize();self.p['format']['duration_s']=None
+        self.check_error(self.p,'duration_s','production')
+    def test_longer_story_is_not_limited_to_trial_duration(self):
+        self.authorize();self.p['format']['duration_s']=90;self.p['shots'][-1]['end_s']=90
+        result=pf.check_project(self.p,'production')
+        self.assertTrue(result['passed'],result);self.assertEqual(result['derived']['expected_frames'],5400)
+    def test_new_template_has_no_fixed_final_duration(self):
+        with tempfile.TemporaryDirectory() as t:
+            target=Path(t)/'story';np.create_project(target)
+            self.assertIsNone(json.loads((target/'project.json').read_text())['format']['duration_s'])
     def test_approval_without_basis_is_not_accepted(self):
         self.p['approvals']['script']['status']='approved';self.check_error(self.p,'no recorded basis')
     def test_scaffold_preserves_existing_work(self):

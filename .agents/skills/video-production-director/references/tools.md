@@ -8,6 +8,7 @@ Prefer one timeline/animation tool plus FFmpeg. Reuse existing working projects.
 | Vector animation synchronized with narration | [Motion Canvas](https://github.com/motion-canvas/motion-canvas) | Documentation, MIT license, pinned package versions |
 | Explicit 3D camera/materials | [Blender](https://github.com/blender/blender) | Chosen Blender version, assets and licenses |
 | Mathematical exposition | [Manim Community](https://github.com/ManimCommunity/manim) | Current API, font/LaTeX dependencies |
+| Style frames, subject/environment images and image edits | Actual authorized host image tool or reviewed image workflow | Load [image assets](image-assets.md); inspect current tool schema, reference controls, output files, usage terms and quota. No access is assumed from this repository |
 | Generative assets and short clips | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) or available services | Model-specific supported inputs, workflow/node/model versions, budget and real hardware |
 | Encoding, sound, metadata and decode checks | [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Local version/build and target platform encoding |
 | Timeline interchange | [OpenTimelineIO](https://github.com/AcademySoftwareFoundation/OpenTimelineIO) | Actual adapter support; it is not a renderer |

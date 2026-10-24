@@ -19,7 +19,9 @@ def check_project(p,phase=None):
     fmt=p.get('format',{});fps=fmt.get('fps');duration=fmt.get('duration_s')
     if not num(fps) or fps<=0:error('format.fps must be positive')
     if fmt.get('frame_rate_mode','cfr') not in ('cfr','vfr'):error('format.frame_rate_mode must be cfr or vfr')
-    if not num(duration) or duration<=0:error('format.duration_s must be positive')
+    if duration is None and not producing:
+        warning('format.duration_s is unresolved; select it from the script and animatic before production')
+    elif not num(duration) or duration<=0:error('format.duration_s must be positive before production')
     for key in ('width','height'):
         v=fmt.get(key)
         if not isinstance(v,int) or isinstance(v,bool) or v<=0:error('format.'+key+' must be a positive integer')

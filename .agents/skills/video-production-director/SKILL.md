@@ -11,7 +11,7 @@ This is a director-level workflow, not a video generation model. Follow the user
 
 Load [workflow](references/workflow.md) for stages and [tool routing](references/tools.md) when selecting tools. Copy templates from `assets/`. Use `scripts/preflight.py` for configuration checks, not aesthetic judgment.
 
-For creator revenue, platform research or popular-video breakdown requests, first read [creator growth](references/creator-growth.md). Start with the buyer, audience and business hypothesis before a film brief. Keep verified observations, reported claims, interpretations and our own experimental results distinct. Version: 1.4.0, reviewed 2026-10-24.
+For creator revenue, platform research or popular-video breakdown requests, first read [creator growth](references/creator-growth.md). Start with the buyer, audience and business hypothesis before a film brief. Keep verified observations, reported claims, interpretations and our own experimental results distinct. Version: 1.5.0, reviewed 2026-10-24.
 
 To initialize a new project, run `python3 scripts/new_project.py <new-directory>` from this skill directory. It refuses to overwrite existing work. Fill in `project.json`, then run `python3 scripts/preflight.py <project.json> --json`. For final media, use `python3 scripts/verify_video.py <video.mp4> --project <project.json> --decode` when ffmpeg/ffprobe are available. These scripts do not generate videos or replace review of the actual film.
 
@@ -35,7 +35,7 @@ Capture audience, intended effect, one-sentence premise, narrative/emotional cha
 
 Offer at most three distinct directions when the concept is open. Explain the meaning, audience interest, implementation fit and largest risk for each. Abstract or musical films may use a perceptual arc instead of a character plot.
 
-Develop the script or visual treatment without technical spectacle hiding a weak premise. Time the narration by reading and planned pauses. Distinguish original texts, translations, modern adaptations and our invented lines.
+Develop the script or visual treatment without technical spectacle hiding a weak premise. Select duration from timed narration, visual beats, pauses and animatic; trial lengths are not final limits. Distinguish original texts, translations, modern adaptations and our invented lines.
 
 ## 3. Stage the evidence
 
@@ -73,7 +73,7 @@ Choose the simplest route that supports the film:
 - Precise graphics, typography and timeline: Remotion or Motion Canvas; use current official Remotion skills/docs for Remotion implementation.
 - Mathematical explanation: Manim.
 - Explicit 3D geometry, camera, object and material: Blender.
-- Generative art or short footage: existing model services or ComfyUI workflows, with recorded configuration and real model constraints.
+- Generated images: load [image assets](references/image-assets.md); check real tool access, lock assets, then test motion. Short footage: available model services or reviewed ComfyUI workflows.
 - Composition, audio and technical inspection: existing editor plus FFmpeg/ffprobe.
 - Multi-application timeline interchange: OpenTimelineIO where adapter support is verified.
 
