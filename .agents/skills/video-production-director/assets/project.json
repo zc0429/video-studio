@@ -2,16 +2,50 @@
   "schema_version": "1.0",
   "project_id": "",
   "phase": "development",
-  "brief": {"audience": "", "premise": "", "viewer_takeaway": "", "kind": "narrative"},
-  "format": {"width": 1920, "height": 1080, "fps": 30, "duration_s": 40, "native_fps_claim": false},
+  "brief": {
+    "audience": "",
+    "premise": "",
+    "viewer_takeaway": "",
+    "kind": "narrative"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration_s": 40,
+    "native_fps_claim": false,
+    "frame_rate_mode": "cfr"
+  },
   "text_clearance_px": 60,
-  "generation": {"enabled": false, "max_trials_per_shot": 2, "approved_budget": null, "spent": 0, "unit": null},
+  "generation": {
+    "enabled": false,
+    "max_trials_per_shot": 2,
+    "approved_budget": null,
+    "spent": 0,
+    "unit": null,
+    "requires_paid_jobs": null
+  },
   "approvals": {
-    "script": {"status": "draft", "basis": ""},
-    "look": {"status": "draft", "basis": ""},
-    "animatic": {"status": "draft", "basis": ""},
-    "pilot": {"status": "draft", "basis": ""}
+    "script": {
+      "status": "draft",
+      "basis": ""
+    },
+    "look": {
+      "status": "draft",
+      "basis": ""
+    },
+    "animatic": {
+      "status": "draft",
+      "basis": ""
+    },
+    "pilot": {
+      "status": "draft",
+      "basis": ""
+    }
   },
   "shots": [],
-  "assets": []
+  "assets": [],
+  "audio": {
+    "required": true
+  }
 }

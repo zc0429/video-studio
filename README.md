@@ -1,10 +1,10 @@
-# Video Studio · 私有视频工作室 v1.2
+# Video Studio · 私有视频工作室 v1.3
 
-以可持续自媒体收益为目标，把选题研究、原创表达、可控制作、最终审片和经营复盘保存在同一个项目里。用户使用手机，Codex在云端工作，用户最终审片。安装/读取仓库本身不自动启动生产、付费生成或公开发布。
+以可持续自媒体收益为目标，把选题研究、原创表达、可控制作、最终审片和经营复盘保存在同一个项目里。Codex自主推进制作，用户最终审片。安装/读取仓库本身不自动启动生产、付费生成或公开发布。
 
-## 手机如何开始
+## 如何开始
 
-1. 在Codex选择使用这个私有仓库的云环境；需要新建环境时，使用Web或桌面环境配置入口，移动端具体功能以当前界面为准。
+1. 在Codex选择使用这个私有仓库的云环境。
 2. 新任务发送下面这段话，或采用 [完整启动指令](LAUNCH_TASK.txt)。
 3. Codex确认读取文件与实际工具后，自主完成前期、制作和内部质检，再交你审片。
 
@@ -13,8 +13,8 @@
 .agents/skills/video-production-director/SKILL.md，
 按最终审核模式和LAUNCH_TASK.txt制作一条原创竖屏视频。
 我授权你自主选题并完成各阶段内部审查，我只终审。
-默认30–40秒、1080×1920、30fps；无新增付费预算，
-不公开发布、不投放、不联系商家。完成可观看成片与手机预览后交我审核。
+默认30–40秒、1080×1920、60fps（恒定帧率）；无新增付费预算，
+不公开发布、不投放、不联系商家。完成可观看成片与轻量预览后交我审核。
 不要只交计划；不能完成的能力或访问限制要如实说明。
 ```
 
@@ -24,7 +24,7 @@ Skill未出现在自动目录时，可直接读取真实本地SKILL.md并按规�
 
 | 内容 | 位置 |
 |---|---|
-| 人读SOP | [SOP.md](SOP.md)、[PDF](docs/video-production-sop-v1.2.pdf) |
+| 人读SOP | [SOP.md](SOP.md)、[PDF](docs/video-production-sop.pdf) |
 | 账号、收益路径与试点 | [CREATOR_GROWTH.md](CREATOR_GROWTH.md) |
 | 导演Skill | [.agents/skills/video-production-director/SKILL.md](.agents/skills/video-production-director/SKILL.md) |
 | 只做最终审核的模式 | [final-review-mode.md](.agents/skills/video-production-director/references/final-review-mode.md) |
@@ -50,9 +50,9 @@ python3 .agents/skills/video-production-director/scripts/new_project.py projects
 python3 .agents/skills/video-production-director/scripts/preflight.py projects/new-film/project.json --json
 ```
 
-前四种Python检查/初始化仅需标准库。视频技术检查还需要FFmpeg/ffprobe。环境探测只证明二进制和版本，不证明模型、GPU或整片生产已跑通。空模板报告缺失信息是正常结果；不要为了通过检查伪造审批、素材或成本。
+配置、结构和指标脚本仅需Python标准库；实际媒体回归测试及视频技术检查另需FFmpeg/ffprobe。环境探测只证明二进制和版本，不证明模型、GPU或整片生产已跑通。空模板报告缺失信息是正常结果；不要为了通过检查伪造审批、素材或成本。
 
-修改SOP后可运行 `python3 scripts/build_docs.py` 重建PDF；文档构建另需pandoc、Node、Playwright和Chromium，不会自动安装依赖。可通过 `CHROMIUM_EXECUTABLE` 指定浏览器路径。这些属于文档构建条件，不是所有视频项目的固定工具链。
+修改SOP后可运行 `python3 scripts/build_docs.py` 重建PDF；文档构建另需pandoc、Node、Playwright和Chromium，不会自动安装依赖。可通过 `CHROMIUM_EXECUTABLE` 指定浏览器路径。这些属于文档构建条件，不是所有视频项目的固定工具链。随后运行 `python3 scripts/package_resources.py` 更新两种ZIP与哈希清单，再运行 `python3 scripts/check_repo.py` 核对源码和包内文件。
 
 ## 维护和交付
 
@@ -62,11 +62,15 @@ python3 .agents/skills/video-production-director/scripts/preflight.py projects/n
 
 ## 验证边界
 
-22项继承的辅助脚本测试与本次结构检查可在本仓库运行。18个技能行为用例为人工规则对照，尚未做真实客户端代理会话评测；四个账号案例仍是报道预研究，没有原片完整观片或自有发布数据。仓库上传不证明云环境已选中它、Skill自动触发或第三方视频生成已端到端运行。
+34项辅助脚本测试与本次结构检查可在本仓库运行，具体结果见VALIDATION.json。18个技能行为用例为人工规则对照，尚未做真实客户端代理会话评测；四个账号案例仍是报道预研究，没有原片完整观片或自有发布数据。仓库上传不证明云环境已选中它、Skill自动触发或第三方视频生成已端到端运行。
 
 ## 便携包
 
-- [完整SOP/Skill/研究/模板/辅助脚本资源ZIP](dist/video-studio-resources-v1.2.zip)
-- [仅导演Skill ZIP](dist/video-production-director-v1.2.zip)
+- [完整SOP/Skill/研究/模板/辅助脚本资源ZIP](dist/video-studio-resources.zip)
+- [仅导演Skill ZIP](dist/video-production-director.zip)
 
 完整包省略其自身这一层ZIP，避免递归打包。仓库源码仍是后续维护的主要入口。
+
+## 最新自检
+
+默认60fps恒定帧率；代码/三维按输出时刻逐帧求值，低帧率素材记录转换方法，不混称原生。当前默认参数在Skill的project.json模板中，比例按发布渠道配置。具体修正和仍待验证项见 [SELF_AUDIT.md](SELF_AUDIT.md)。

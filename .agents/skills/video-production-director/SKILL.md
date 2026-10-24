@@ -7,11 +7,11 @@ description: Research, plan, produce and improve short videos with evidence-base
 
 ## Scope and priorities
 
-This is a director-level workflow, not a video generation model. Follow the user's explicit goals, established approvals, budget, tools, and preferences. User instructions take precedence over this skill. Preserve existing work and record changes. Do not impose the attention theme, HUD layouts, a one-take format, 60fps, a 12-frame QA count, or a specific clearance size on every film.
+This is a director-level workflow, not a video generation model. Follow the user's explicit goals, established approvals, budget, tools, and preferences. User instructions take precedence over this skill. Preserve existing work and record changes. Do not impose the attention theme, HUD layouts, a one-take format, a 12-frame QA count, or a specific clearance size on every film.
 
 Load [workflow](references/workflow.md) for the stage checklist. Load [tool routing](references/tools.md) when selecting implementation tools. Copy the appropriate templates from `assets/`. Use `scripts/preflight.py` only for structured, deterministic project checks; it cannot judge artistic quality.
 
-For creator revenue, platform research or popular-video breakdown requests, first read [creator growth](references/creator-growth.md). Start with the buyer, audience and business hypothesis before a film brief. Keep verified observations, reported claims, interpretations and our own experimental results distinct. Version: 1.2.0, reviewed 2026-10-24.
+For creator revenue, platform research or popular-video breakdown requests, first read [creator growth](references/creator-growth.md). Start with the buyer, audience and business hypothesis before a film brief. Keep verified observations, reported claims, interpretations and our own experimental results distinct. Version: 1.3.0, reviewed 2026-10-24.
 
 To initialize a new project, run `python3 scripts/new_project.py <new-directory>` from this skill directory. It refuses to overwrite existing work. Fill in `project.json`, then run `python3 scripts/preflight.py <project.json> --json`. For final media, use `python3 scripts/verify_video.py <video.mp4> --project <project.json> --decode` when ffmpeg/ffprobe are available. These scripts do not generate videos or replace review of the actual film.
 
@@ -26,6 +26,8 @@ When the user delegates production through final review only, read [final-review
 - Growth research: compare audience/offer fit, source real cases, document access limits, and propose bounded original publishing tests. Research does not authorize publishing, ad spend, purchases, or contacting other people.
 
 For missing information, first use the conversation and existing project files. Ask at most three high-impact questions together if answers are necessary. Otherwise proceed with explicit assumptions. Never repeatedly request an approval already given. Do not interpret a request to build a workflow or skill as permission to produce a new film.
+
+The current repository defaults to 60fps constant-frame-rate final delivery. Use the project template as the machine-readable default; explicit user requirements override defaults. Device choice does not define the creative scope. Code and 3D motion should be evaluated at each output timestamp; record any lower-cadence source conversion and never equate export fps with native source fps.
 
 ## 2. Define the film before the implementation
 

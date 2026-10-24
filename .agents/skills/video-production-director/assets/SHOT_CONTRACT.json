@@ -19,5 +19,7 @@
   "supported_controls_verified": [],
   "pass_conditions": [],
   "trials": [],
-  "trial_limit_override_reason": ""
+  "trial_limit_override_reason": "",
+  "fps_conversion": null,
+  "source_cadence_evidence": ""
 }

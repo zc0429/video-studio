@@ -18,6 +18,7 @@ def check_project(p,phase=None):
         if not isinstance(brief.get(key),str) or not brief[key].strip():error('brief.'+key+' is missing')
     fmt=p.get('format',{});fps=fmt.get('fps');duration=fmt.get('duration_s')
     if not num(fps) or fps<=0:error('format.fps must be positive')
+    if fmt.get('frame_rate_mode','cfr') not in ('cfr','vfr'):error('format.frame_rate_mode must be cfr or vfr')
     if not num(duration) or duration<=0:error('format.duration_s must be positive')
     for key in ('width','height'):
         v=fmt.get(key)
@@ -25,7 +26,7 @@ def check_project(p,phase=None):
         elif v%2:warning('odd '+key+' may need padding for yuv420p')
     if num(fps) and fps>0 and num(duration) and duration>0:
         count=round(fps*duration);derived.update(expected_frames=count,quantized_duration_s=count/fps)
-        if abs(count-fps*duration)>1e-5:warning('requested duration is not exactly on the frame grid; choose a final frame count')
+        if abs(count-fps*duration)>1e-5:(error if producing else warning)('requested duration is not exactly on the frame grid; choose a final frame count')
     clearance=p.get('text_clearance_px')
     if not num(clearance) or clearance<0:error('text_clearance_px must be non-negative')
     approvals=p.get('approvals',{})
@@ -35,6 +36,9 @@ def check_project(p,phase=None):
         if ready and not str(a.get('basis','')).strip():error(key+' approval/delegation has no recorded basis')
         if producing and not ready:error(key+' is not ready for production; reuse existing authorization if already given')
     g=p.get('generation',{});limit=g.get('max_trials_per_shot',2)
+    if not isinstance(g.get('enabled',False),bool):error('generation.enabled must be a boolean')
+    if g.get('enabled') and not isinstance(g.get('requires_paid_jobs'),bool):
+        (error if producing else warning)('enabled generation must explicitly declare requires_paid_jobs true or false')
     if not isinstance(limit,int) or isinstance(limit,bool) or limit<1:error('max_trials_per_shot must be a positive integer');limit=2
     cap=g.get('approved_budget');spent=g.get('spent',0)
     if not num(spent) or spent<0:error('generation.spent must be non-negative')
@@ -59,6 +63,10 @@ def check_project(p,phase=None):
             previous=end
         if s.get('method') not in ('code','blender','generative','footage','composite'):(error if producing else warning)(sid+': method has not been selected')
         source=s.get('source_fps')
+        if num(source) and source<=0:error(sid+': source_fps must be positive when numeric')
+        if num(source) and num(fps) and abs(source-fps)>1e-4:
+            if s.get('fps_conversion') not in ('duplicate','interpolate','retime','render_at_output_fps'):
+                (error if producing else warning)(sid+': mismatched source/output fps needs a recorded fps_conversion method')
         if fmt.get('native_fps_claim'):
             analytic=source=='per_frame' and s.get('method') in ('code','blender')
             if not analytic and (not num(source) or not num(fps) or abs(source-fps)>1e-4):error(sid+': source cadence does not support the native-fps claim')

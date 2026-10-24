@@ -8,21 +8,94 @@
     "viewer_takeaway": "感到日常物件与生活记忆之间的联系。",
     "kind": "poetic"
   },
-  "format": {"width": 1920, "height": 1080, "fps": 30, "duration_s": 40, "native_fps_claim": false},
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration_s": 40,
+    "native_fps_claim": false,
+    "frame_rate_mode": "cfr"
+  },
   "text_clearance_px": 60,
-  "generation": {"enabled": false, "requires_paid_jobs": false, "max_trials_per_shot": 2, "approved_budget": null, "spent": 0, "unit": null},
+  "generation": {
+    "enabled": false,
+    "requires_paid_jobs": false,
+    "max_trials_per_shot": 2,
+    "approved_budget": null,
+    "spent": 0,
+    "unit": null
+  },
   "approvals": {
-    "script": {"status": "draft", "basis": ""},
-    "look": {"status": "draft", "basis": ""},
-    "animatic": {"status": "draft", "basis": ""},
-    "pilot": {"status": "draft", "basis": ""}
+    "script": {
+      "status": "draft",
+      "basis": ""
+    },
+    "look": {
+      "status": "draft",
+      "basis": ""
+    },
+    "animatic": {
+      "status": "draft",
+      "basis": ""
+    },
+    "pilot": {
+      "status": "draft",
+      "basis": ""
+    }
   },
   "shots": [
-    {"id":"S01","start_s":0,"end_s":7,"purpose":"建立普通泥土与日常器物的关系","method":"blender","source_fps":"per_frame","trials":[]},
-    {"id":"S02","start_s":7,"end_s":15,"purpose":"形体逐渐成为一只可被使用的碗","method":"blender","source_fps":"per_frame","trials":[]},
-    {"id":"S03","start_s":15,"end_s":23,"purpose":"以材料与光线变化诗意表现成器过程","method":"blender","source_fps":"per_frame","trials":[]},
-    {"id":"S04","start_s":23,"end_s":33,"purpose":"热气与使用痕迹带入人的生活","method":"composite","source_fps":30,"trials":[]},
-    {"id":"S05","start_s":33,"end_s":40,"purpose":"物件与记忆形成结尾回应","method":"composite","source_fps":30,"trials":[]}
+    {
+      "id": "S01",
+      "start_s": 0,
+      "end_s": 7,
+      "purpose": "建立普通泥土与日常器物的关系",
+      "method": "blender",
+      "source_fps": "per_frame",
+      "trials": []
+    },
+    {
+      "id": "S02",
+      "start_s": 7,
+      "end_s": 15,
+      "purpose": "形体逐渐成为一只可被使用的碗",
+      "method": "blender",
+      "source_fps": "per_frame",
+      "trials": []
+    },
+    {
+      "id": "S03",
+      "start_s": 15,
+      "end_s": 23,
+      "purpose": "以材料与光线变化诗意表现成器过程",
+      "method": "blender",
+      "source_fps": "per_frame",
+      "trials": []
+    },
+    {
+      "id": "S04",
+      "start_s": 23,
+      "end_s": 33,
+      "purpose": "热气与使用痕迹带入人的生活",
+      "method": "composite",
+      "source_fps": 30,
+      "trials": [],
+      "fps_conversion": "interpolate",
+      "conversion_status": "planned, not executed; not native 60fps"
+    },
+    {
+      "id": "S05",
+      "start_s": 33,
+      "end_s": 40,
+      "purpose": "物件与记忆形成结尾回应",
+      "method": "composite",
+      "source_fps": 30,
+      "trials": [],
+      "fps_conversion": "interpolate",
+      "conversion_status": "planned, not executed; not native 60fps"
+    }
   ],
-  "assets": []
+  "assets": [],
+  "audio": {
+    "required": true
+  }
 }

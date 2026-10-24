@@ -3,6 +3,8 @@
 import ast
 import json
 import re
+import hashlib
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,6 +41,24 @@ def main():
             errors.append('invalid skill frontmatter')
         elif not all(re.search(rf'^{key}:\s*\S', text.split('---', 2)[1], re.M) for key in ['name', 'description']):
             errors.append('missing name/description in frontmatter')
+    template=ROOT/'.agents/skills/video-production-director/assets/project.json'
+    if template.exists():
+        default=json.loads(template.read_text())['format']
+        for rel in ['README.md','LAUNCH_TASK.txt','.agents/skills/video-production-director/references/final-review-mode.md']:
+            if f"{default['fps']}fps" not in (ROOT/rel).read_text():errors.append(f'{rel}: frame-rate default differs from project template')
+    manifest=ROOT/'MANIFEST.sha256'
+    if manifest.exists():
+        for line in manifest.read_text().splitlines():
+            digest,relative=line.split('  ',1);path=ROOT/relative
+            if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=digest:
+                errors.append(f'manifest mismatch: {relative}')
+    archive=ROOT/'dist/video-production-director.zip'
+    if archive.exists():
+        with zipfile.ZipFile(archive) as z:
+            if z.testzip():errors.append('portable skill ZIP CRC failed')
+            packaged={name.split('/',1)[1]:z.read(name) for name in z.namelist() if not name.endswith('/')}
+        actual={p.relative_to(skill.parent).as_posix():p.read_bytes() for p in skill.parent.rglob('*') if p.is_file() and '__pycache__' not in p.parts}
+        if packaged!=actual:errors.append('portable skill ZIP differs from current skill source')
     print(json.dumps({'passed': not errors, 'counts': counts, 'errors': errors,
                       'limits': 'Structure/syntax only, not film quality, market validation or target-client automatic discovery.'}, ensure_ascii=False, indent=2))
     return 0 if not errors else 2
