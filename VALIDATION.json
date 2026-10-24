@@ -1,1 +1,22 @@
-{"engine_version":"2.0.0","director_skill_version":"1.5.0","engine_contract_tests":6,"engine_contract_passed":true,"python_regression_tests":38,"python_regressions_passed":true,"motion_watchdog_passed":true,"actual_keyframes_viewed":16,"benchmark_5x_achieved":false,"cpu_quota_cores":2,"film_status":"formal_render_in_progress; see project STATUS","limits":"Engineering evidence, not aesthetic approval, actual audition, automatic skill registration, popularity or revenue"}
+{
+  "engine_version": "2.0.0",
+  "director_skill_version": "1.5.0",
+  "engine_contract_tests": 6,
+  "engine_contract_passed": true,
+  "python_regression_tests": 38,
+  "python_regressions_passed": true,
+  "motion_watchdog_passed": true,
+  "actual_keyframes_viewed": 16,
+  "benchmark_5x_achieved": false,
+  "cpu_quota_cores": 2,
+  "film_status": "awaiting_user_final_review",
+  "limits": "Engineering evidence, not aesthetic approval, actual audition, automatic skill registration, popularity or revenue",
+  "final_video_frames": 5100,
+  "final_video_duration_s": 85,
+  "full_decode_passed": true,
+  "cfr_pts_passed": true,
+  "actual_encoded_frame_checks": 2,
+  "browser_playback_ended": true,
+  "browser_display_dropped_frames": 3,
+  "subjective_audition": false
+}

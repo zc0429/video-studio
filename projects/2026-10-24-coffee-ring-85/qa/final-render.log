@@ -1,0 +1,128 @@
+{"type":"progress","worker":3,"done":60,"total":1275,"frame":3884}
+{"type":"progress","worker":1,"done":60,"total":1275,"frame":1334}
+{"type":"progress","worker":0,"done":60,"total":1275,"frame":59}
+{"type":"progress","worker":2,"done":60,"total":1275,"frame":2609}
+{"type":"progress","worker":3,"done":120,"total":1275,"frame":3944}
+{"type":"progress","worker":1,"done":120,"total":1275,"frame":1394}
+{"type":"progress","worker":1,"done":180,"total":1275,"frame":1454}
+{"type":"progress","worker":0,"done":120,"total":1275,"frame":119}
+{"type":"progress","worker":3,"done":180,"total":1275,"frame":4004}
+{"type":"progress","worker":2,"done":120,"total":1275,"frame":2669}
+{"type":"progress","worker":1,"done":240,"total":1275,"frame":1514}
+{"type":"progress","worker":3,"done":240,"total":1275,"frame":4064}
+{"type":"progress","worker":1,"done":300,"total":1275,"frame":1574}
+{"type":"progress","worker":0,"done":180,"total":1275,"frame":179}
+{"type":"progress","worker":2,"done":180,"total":1275,"frame":2729}
+{"type":"progress","worker":3,"done":300,"total":1275,"frame":4124}
+{"type":"progress","worker":1,"done":360,"total":1275,"frame":1634}
+{"type":"progress","worker":3,"done":360,"total":1275,"frame":4184}
+{"type":"progress","worker":0,"done":240,"total":1275,"frame":239}
+{"type":"progress","worker":2,"done":240,"total":1275,"frame":2789}
+{"type":"progress","worker":1,"done":420,"total":1275,"frame":1694}
+{"type":"progress","worker":3,"done":420,"total":1275,"frame":4244}
+{"type":"progress","worker":1,"done":480,"total":1275,"frame":1754}
+{"type":"progress","worker":2,"done":300,"total":1275,"frame":2849}
+{"type":"progress","worker":0,"done":300,"total":1275,"frame":299}
+{"type":"progress","worker":3,"done":480,"total":1275,"frame":4304}
+{"type":"progress","worker":2,"done":360,"total":1275,"frame":2909}
+{"type":"progress","worker":1,"done":540,"total":1275,"frame":1814}
+{"type":"progress","worker":2,"done":420,"total":1275,"frame":2969}
+{"type":"progress","worker":0,"done":360,"total":1275,"frame":359}
+{"type":"progress","worker":1,"done":600,"total":1275,"frame":1874}
+{"type":"progress","worker":3,"done":540,"total":1275,"frame":4364}
+{"type":"progress","worker":2,"done":480,"total":1275,"frame":3029}
+{"type":"progress","worker":1,"done":660,"total":1275,"frame":1934}
+{"type":"progress","worker":3,"done":600,"total":1275,"frame":4424}
+{"type":"progress","worker":0,"done":420,"total":1275,"frame":419}
+{"type":"progress","worker":2,"done":540,"total":1275,"frame":3089}
+{"type":"progress","worker":3,"done":660,"total":1275,"frame":4484}
+{"type":"progress","worker":0,"done":480,"total":1275,"frame":479}
+{"type":"progress","worker":1,"done":720,"total":1275,"frame":1994}
+{"type":"progress","worker":3,"done":720,"total":1275,"frame":4544}
+{"type":"progress","worker":0,"done":540,"total":1275,"frame":539}
+{"type":"progress","worker":2,"done":600,"total":1275,"frame":3149}
+{"type":"progress","worker":3,"done":780,"total":1275,"frame":4604}
+{"type":"progress","worker":1,"done":780,"total":1275,"frame":2054}
+{"type":"progress","worker":0,"done":600,"total":1275,"frame":599}
+{"type":"progress","worker":2,"done":660,"total":1275,"frame":3209}
+{"type":"progress","worker":1,"done":840,"total":1275,"frame":2114}
+{"type":"progress","worker":3,"done":840,"total":1275,"frame":4664}
+{"type":"progress","worker":2,"done":720,"total":1275,"frame":3269}
+{"type":"progress","worker":0,"done":660,"total":1275,"frame":659}
+{"type":"progress","worker":3,"done":900,"total":1275,"frame":4724}
+{"type":"progress","worker":1,"done":900,"total":1275,"frame":2174}
+{"type":"progress","worker":2,"done":780,"total":1275,"frame":3329}
+{"type":"progress","worker":0,"done":720,"total":1275,"frame":719}
+{"type":"progress","worker":1,"done":960,"total":1275,"frame":2234}
+{"type":"progress","worker":3,"done":960,"total":1275,"frame":4784}
+{"type":"progress","worker":0,"done":780,"total":1275,"frame":779}
+{"type":"progress","worker":3,"done":1020,"total":1275,"frame":4844}
+{"type":"progress","worker":2,"done":840,"total":1275,"frame":3389}
+{"type":"progress","worker":1,"done":1020,"total":1275,"frame":2294}
+{"type":"progress","worker":0,"done":840,"total":1275,"frame":839}
+{"type":"progress","worker":3,"done":1080,"total":1275,"frame":4904}
+{"type":"progress","worker":0,"done":900,"total":1275,"frame":899}
+{"type":"progress","worker":3,"done":1140,"total":1275,"frame":4964}
+{"type":"progress","worker":2,"done":900,"total":1275,"frame":3449}
+{"type":"progress","worker":1,"done":1080,"total":1275,"frame":2354}
+{"type":"progress","worker":3,"done":1200,"total":1275,"frame":5024}
+{"type":"progress","worker":0,"done":960,"total":1275,"frame":959}
+{"type":"progress","worker":1,"done":1140,"total":1275,"frame":2414}
+{"type":"progress","worker":3,"done":1260,"total":1275,"frame":5084}
+{"type":"progress","worker":2,"done":960,"total":1275,"frame":3509}
+{"type":"progress","worker":1,"done":1200,"total":1275,"frame":2474}
+{"type":"progress","worker":0,"done":1020,"total":1275,"frame":1019}
+{"type":"progress","worker":2,"done":1020,"total":1275,"frame":3569}
+{"type":"progress","worker":0,"done":1080,"total":1275,"frame":1079}
+{"type":"progress","worker":1,"done":1260,"total":1275,"frame":2534}
+{"type":"progress","worker":2,"done":1080,"total":1275,"frame":3629}
+{"type":"progress","worker":0,"done":1140,"total":1275,"frame":1139}
+{"type":"progress","worker":2,"done":1140,"total":1275,"frame":3689}
+{"type":"progress","worker":0,"done":1200,"total":1275,"frame":1199}
+{"type":"progress","worker":2,"done":1200,"total":1275,"frame":3749}
+{"type":"progress","worker":0,"done":1260,"total":1275,"frame":1259}
+{"type":"progress","worker":2,"done":1260,"total":1275,"frame":3809}
+{
+  "workers": 4,
+  "logical_cpus": 3,
+  "fps": 60,
+  "frame_count": 5100,
+  "start_frame": 0,
+  "end_frame": 5100,
+  "wall_s": 270.23810258300006,
+  "ranges": [
+    {
+      "worker": 0,
+      "range": [
+        0,
+        1275
+      ],
+      "frames": 1275
+    },
+    {
+      "worker": 1,
+      "range": [
+        1275,
+        2550
+      ],
+      "frames": 1275
+    },
+    {
+      "worker": 2,
+      "range": [
+        2550,
+        3825
+      ],
+      "frames": 1275
+    },
+    {
+      "worker": 3,
+      "range": [
+        3825,
+        5100
+      ],
+      "frames": 1275
+    }
+  ],
+  "source_sampling": "seekTo(frameIndex/fps), order-independent; JPEG canvas readback; no realtime capture or duplicate conversion"
+}

@@ -1,0 +1,16 @@
+{
+  "samples": [
+    {
+      "workers": 1,
+      "wall_s": 7.206436937,
+      "frames": 80
+    },
+    {
+      "workers": 4,
+      "wall_s": 6.821152765,
+      "frames": 80
+    }
+  ],
+  "speedup": 1.0564837330688341,
+  "scope": "Includes browser startup; this constrained machine is not guaranteed to deliver 5x. Same frame count and scene complexity."
+}

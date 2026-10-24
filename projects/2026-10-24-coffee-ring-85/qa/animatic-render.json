@@ -1,0 +1,44 @@
+{
+  "workers": 4,
+  "logical_cpus": 3,
+  "fps": 12,
+  "frame_count": 1020,
+  "start_frame": 0,
+  "end_frame": 1020,
+  "wall_s": 54.807662594,
+  "ranges": [
+    {
+      "worker": 0,
+      "range": [
+        0,
+        255
+      ],
+      "frames": 255
+    },
+    {
+      "worker": 1,
+      "range": [
+        255,
+        510
+      ],
+      "frames": 255
+    },
+    {
+      "worker": 2,
+      "range": [
+        510,
+        765
+      ],
+      "frames": 255
+    },
+    {
+      "worker": 3,
+      "range": [
+        765,
+        1020
+      ],
+      "frames": 255
+    }
+  ],
+  "source_sampling": "seekTo(frameIndex/fps), order-independent; JPEG canvas readback; no realtime capture or duplicate conversion"
+}

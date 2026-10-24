@@ -1,0 +1,12 @@
+{
+  "local_bytes": 6058370,
+  "downloaded_bytes": 6058370,
+  "sha256_match": true,
+  "local_sha256": "5acbd45deea6ca3bd4ae161030440a8c6fcdc7d1c3fdb19bfd66cdafa722192a",
+  "downloaded_sha256": "5acbd45deea6ca3bd4ae161030440a8c6fcdc7d1c3fdb19bfd66cdafa722192a",
+  "downloaded_width": 540,
+  "downloaded_height": 960,
+  "downloaded_fps": "60/1",
+  "downloaded_frames": "5100",
+  "downloaded_full_decode_pass": true
+}

@@ -1,0 +1,21 @@
+{
+  "master": {
+    "id": "1U137VBnywfq9INElKZ09FexloTGeHck7",
+    "server_bytes": 90594206,
+    "local_bytes": 90594206,
+    "mime_type": "video/mp4",
+    "shared": false,
+    "permission": "owner user only"
+  },
+  "preview": {
+    "id": "1GLA9rYSqTosJEkmGfSKkun6qg4xE-Ls0",
+    "server_bytes": 6058370,
+    "local_bytes": 6058370,
+    "mime_type": "video/mp4",
+    "shared": false,
+    "permission": "owner user only"
+  },
+  "folder_id": "1uqiAPCwmLeF0bCwovKQsKbF38NaNXaAv",
+  "server_video_dimensions_or_checksum_exposed": false,
+  "preview_sha256_evidence": "qa/preview-roundtrip.json"
+}

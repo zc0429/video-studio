@@ -1,0 +1,17 @@
+{"time":4.969601,"ended":false,"ready":4,"total":303,"dropped":0}
+{"time":9.974068,"ended":false,"ready":4,"total":603,"dropped":0}
+{"time":14.976796,"ended":false,"ready":4,"total":903,"dropped":0}
+{"time":19.981671,"ended":false,"ready":4,"total":1204,"dropped":0}
+{"time":24.984844,"ended":false,"ready":4,"total":1504,"dropped":0}
+{"time":29.988421,"ended":false,"ready":4,"total":1804,"dropped":0}
+{"time":34.992328,"ended":false,"ready":4,"total":2104,"dropped":0}
+{"time":39.995837,"ended":false,"ready":4,"total":2405,"dropped":0}
+{"time":44.998694,"ended":false,"ready":4,"total":2705,"dropped":0}
+{"time":50.002492,"ended":false,"ready":4,"total":3005,"dropped":0}
+{"time":55.006549,"ended":false,"ready":4,"total":3305,"dropped":0}
+{"time":60.00896,"ended":false,"ready":4,"total":3605,"dropped":3}
+{"time":65.016657,"ended":false,"ready":4,"total":3906,"dropped":3}
+{"time":70.021484,"ended":false,"ready":4,"total":4206,"dropped":3}
+{"time":75.027218,"ended":false,"ready":4,"total":4507,"dropped":3}
+{"time":80.030757,"ended":false,"ready":4,"total":4807,"dropped":3}
+{"time":85,"ended":true,"ready":4,"total":5100,"dropped":3}

@@ -1,0 +1,60 @@
+{"type":"progress","worker":1,"done":60,"total":255,"frame":314}
+{"type":"progress","worker":0,"done":60,"total":255,"frame":59}
+{"type":"progress","worker":2,"done":60,"total":255,"frame":569}
+{"type":"progress","worker":1,"done":120,"total":255,"frame":374}
+{"type":"progress","worker":0,"done":120,"total":255,"frame":119}
+{"type":"progress","worker":3,"done":60,"total":255,"frame":824}
+{"type":"progress","worker":1,"done":180,"total":255,"frame":434}
+{"type":"progress","worker":2,"done":120,"total":255,"frame":629}
+{"type":"progress","worker":0,"done":180,"total":255,"frame":179}
+{"type":"progress","worker":3,"done":120,"total":255,"frame":884}
+{"type":"progress","worker":1,"done":240,"total":255,"frame":494}
+{"type":"progress","worker":0,"done":240,"total":255,"frame":239}
+{"type":"progress","worker":2,"done":180,"total":255,"frame":689}
+{"type":"progress","worker":3,"done":180,"total":255,"frame":944}
+{"type":"progress","worker":2,"done":240,"total":255,"frame":749}
+{"type":"progress","worker":3,"done":240,"total":255,"frame":1004}
+{
+  "workers": 4,
+  "logical_cpus": 3,
+  "fps": 12,
+  "frame_count": 1020,
+  "start_frame": 0,
+  "end_frame": 1020,
+  "wall_s": 54.807662594,
+  "ranges": [
+    {
+      "worker": 0,
+      "range": [
+        0,
+        255
+      ],
+      "frames": 255
+    },
+    {
+      "worker": 1,
+      "range": [
+        255,
+        510
+      ],
+      "frames": 255
+    },
+    {
+      "worker": 2,
+      "range": [
+        510,
+        765
+      ],
+      "frames": 255
+    },
+    {
+      "worker": 3,
+      "range": [
+        765,
+        1020
+      ],
+      "frames": 255
+    }
+  ],
+  "source_sampling": "seekTo(frameIndex/fps), order-independent; JPEG canvas readback; no realtime capture or duplicate conversion"
+}

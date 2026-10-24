@@ -1,0 +1,4029 @@
+{
+  "schema_version": 2,
+  "duration_s": 85,
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "speed": 1.18,
+  "voice": "zm_010",
+  "voice_duration_ms": 67899,
+  "selection_basis": "14 actual trimmed PCM durations, minimum visual beat lengths and explicit 85s allocation; no fake read time",
+  "shots": [
+    {
+      "name": "桌面悬案",
+      "act": 1,
+      "text": "一滴咖啡，干了以后，为什么中间浅，颜色却挤在最外圈？",
+      "keywords": [
+        "咖啡",
+        "最外圈"
+      ],
+      "min_duration_s": 5,
+      "pause_weight": 1,
+      "id": 1,
+      "start_s": 0,
+      "end_s": 5.5,
+      "voice_start_s": 0.14,
+      "voice_duration_ms": 4262,
+      "audio": "audio/voice/01.wav",
+      "words": [
+        {
+          "text": "一",
+          "start_ms": 0,
+          "end_ms": 120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "滴",
+          "start_ms": 120,
+          "end_ms": 240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "咖",
+          "start_ms": 240,
+          "end_ms": 460,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "啡",
+          "start_ms": 460,
+          "end_ms": 640,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "干",
+          "start_ms": 640,
+          "end_ms": 840,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "了",
+          "start_ms": 840,
+          "end_ms": 1000,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "以",
+          "start_ms": 1000,
+          "end_ms": 1140,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "后",
+          "start_ms": 1140,
+          "end_ms": 1300,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "为",
+          "start_ms": 1600,
+          "end_ms": 1687,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "什",
+          "start_ms": 1687,
+          "end_ms": 1773,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "么",
+          "start_ms": 1773,
+          "end_ms": 1860,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "中",
+          "start_ms": 1860,
+          "end_ms": 2120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "间",
+          "start_ms": 2120,
+          "end_ms": 2320,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "浅",
+          "start_ms": 2320,
+          "end_ms": 2560,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "颜",
+          "start_ms": 2800,
+          "end_ms": 2900,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "色",
+          "start_ms": 2900,
+          "end_ms": 3100,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "却",
+          "start_ms": 3100,
+          "end_ms": 3320,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "挤",
+          "start_ms": 3320,
+          "end_ms": 3480,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "在",
+          "start_ms": 3480,
+          "end_ms": 3640,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "最",
+          "start_ms": 3640,
+          "end_ms": 3820,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "外",
+          "start_ms": 3820,
+          "end_ms": 4020,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "圈",
+          "start_ms": 4020,
+          "end_ms": 4240,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "一滴咖啡",
+          "start_ms": 0,
+          "end_ms": 640,
+          "words": [
+            {
+              "text": "一滴",
+              "start_ms": 0,
+              "end_ms": 240,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "咖啡",
+              "start_ms": 240,
+              "end_ms": 640,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "干了以后",
+          "start_ms": 640,
+          "end_ms": 1300,
+          "words": [
+            {
+              "text": "干",
+              "start_ms": 640,
+              "end_ms": 840,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "了",
+              "start_ms": 840,
+              "end_ms": 1000,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "以后",
+              "start_ms": 1000,
+              "end_ms": 1300,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "为什么中间浅",
+          "start_ms": 1600,
+          "end_ms": 2560,
+          "words": [
+            {
+              "text": "为什么",
+              "start_ms": 1600,
+              "end_ms": 1860,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "中间",
+              "start_ms": 1860,
+              "end_ms": 2320,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "浅",
+              "start_ms": 2320,
+              "end_ms": 2560,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "颜色却挤在最外圈",
+          "start_ms": 2800,
+          "end_ms": 4240,
+          "words": [
+            {
+              "text": "颜色",
+              "start_ms": 2800,
+              "end_ms": 3100,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "却",
+              "start_ms": 3100,
+              "end_ms": 3320,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "挤",
+              "start_ms": 3320,
+              "end_ms": 3480,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "在",
+              "start_ms": 3480,
+              "end_ms": 3640,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "最外圈",
+              "start_ms": 3640,
+              "end_ms": 4240,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "直觉与现实",
+      "act": 1,
+      "text": "直觉会说：水少了，就往中心缩。可这滴咖啡的边界，偏偏不肯退。",
+      "keywords": [
+        "中心缩",
+        "边界",
+        "不肯退"
+      ],
+      "min_duration_s": 5.5,
+      "pause_weight": 1,
+      "id": 2,
+      "start_s": 5.5,
+      "end_s": 11.5,
+      "voice_start_s": 5.64,
+      "voice_duration_ms": 4994,
+      "audio": "audio/voice/02.wav",
+      "words": [
+        {
+          "text": "直",
+          "start_ms": 0,
+          "end_ms": 80,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "觉",
+          "start_ms": 80,
+          "end_ms": 220,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "会",
+          "start_ms": 220,
+          "end_ms": 380,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "说",
+          "start_ms": 380,
+          "end_ms": 600,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "水",
+          "start_ms": 860,
+          "end_ms": 1000,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "少",
+          "start_ms": 1000,
+          "end_ms": 1240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "了",
+          "start_ms": 1240,
+          "end_ms": 1400,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "就",
+          "start_ms": 1480,
+          "end_ms": 1560,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "往",
+          "start_ms": 1560,
+          "end_ms": 1720,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "中",
+          "start_ms": 1720,
+          "end_ms": 1900,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "心",
+          "start_ms": 1900,
+          "end_ms": 2060,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "缩",
+          "start_ms": 2060,
+          "end_ms": 2280,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "可",
+          "start_ms": 2620,
+          "end_ms": 2720,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "这",
+          "start_ms": 2720,
+          "end_ms": 2880,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "滴",
+          "start_ms": 2880,
+          "end_ms": 3040,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "咖",
+          "start_ms": 3040,
+          "end_ms": 3240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "啡",
+          "start_ms": 3240,
+          "end_ms": 3420,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 3420,
+          "end_ms": 3520,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "边",
+          "start_ms": 3520,
+          "end_ms": 3680,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "界",
+          "start_ms": 3680,
+          "end_ms": 3880,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "偏",
+          "start_ms": 4040,
+          "end_ms": 4220,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "偏",
+          "start_ms": 4220,
+          "end_ms": 4440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "不",
+          "start_ms": 4440,
+          "end_ms": 4580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "肯",
+          "start_ms": 4580,
+          "end_ms": 4760,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "退",
+          "start_ms": 4760,
+          "end_ms": 4960,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "直觉会说",
+          "start_ms": 0,
+          "end_ms": 600,
+          "words": [
+            {
+              "text": "直觉",
+              "start_ms": 0,
+              "end_ms": 220,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "会",
+              "start_ms": 220,
+              "end_ms": 380,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "说",
+              "start_ms": 380,
+              "end_ms": 600,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "水少了",
+          "start_ms": 860,
+          "end_ms": 1400,
+          "words": [
+            {
+              "text": "水少",
+              "start_ms": 860,
+              "end_ms": 1240,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "了",
+              "start_ms": 1240,
+              "end_ms": 1400,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "就往中心缩",
+          "start_ms": 1480,
+          "end_ms": 2280,
+          "words": [
+            {
+              "text": "就",
+              "start_ms": 1480,
+              "end_ms": 1560,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "往",
+              "start_ms": 1560,
+              "end_ms": 1720,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "中心缩",
+              "start_ms": 1720,
+              "end_ms": 2280,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "可这滴咖啡的边界",
+          "start_ms": 2620,
+          "end_ms": 3880,
+          "words": [
+            {
+              "text": "可",
+              "start_ms": 2620,
+              "end_ms": 2720,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "这滴",
+              "start_ms": 2720,
+              "end_ms": 3040,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "咖啡",
+              "start_ms": 3040,
+              "end_ms": 3420,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 3420,
+              "end_ms": 3520,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "边界",
+              "start_ms": 3520,
+              "end_ms": 3880,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "偏偏不肯退",
+          "start_ms": 4040,
+          "end_ms": 4960,
+          "words": [
+            {
+              "text": "偏偏",
+              "start_ms": 4040,
+              "end_ms": 4440,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "不肯退",
+              "start_ms": 4440,
+              "end_ms": 4960,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "回到一滴",
+      "act": 1,
+      "text": "把时间倒回去。看，一整滴咖啡里，藏着无数悬浮的小颗粒。",
+      "keywords": [
+        "倒回去",
+        "悬浮",
+        "小颗粒"
+      ],
+      "min_duration_s": 5.5,
+      "pause_weight": 1,
+      "id": 3,
+      "start_s": 11.5,
+      "end_s": 17.5,
+      "voice_start_s": 11.64,
+      "voice_duration_ms": 4504,
+      "audio": "audio/voice/03.wav",
+      "words": [
+        {
+          "text": "把",
+          "start_ms": 0,
+          "end_ms": 80,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "时",
+          "start_ms": 80,
+          "end_ms": 220,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "间",
+          "start_ms": 220,
+          "end_ms": 360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "倒",
+          "start_ms": 360,
+          "end_ms": 580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "回",
+          "start_ms": 580,
+          "end_ms": 770,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "去",
+          "start_ms": 770,
+          "end_ms": 960,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "看",
+          "start_ms": 1280,
+          "end_ms": 1440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "一",
+          "start_ms": 1440,
+          "end_ms": 1720,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "整",
+          "start_ms": 1720,
+          "end_ms": 1880,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "滴",
+          "start_ms": 1880,
+          "end_ms": 2080,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "咖",
+          "start_ms": 2080,
+          "end_ms": 2260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "啡",
+          "start_ms": 2260,
+          "end_ms": 2440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "里",
+          "start_ms": 2440,
+          "end_ms": 2620,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "藏",
+          "start_ms": 2840,
+          "end_ms": 3000,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "着",
+          "start_ms": 3000,
+          "end_ms": 3120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "无",
+          "start_ms": 3120,
+          "end_ms": 3280,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "数",
+          "start_ms": 3280,
+          "end_ms": 3460,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "悬",
+          "start_ms": 3460,
+          "end_ms": 3680,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "浮",
+          "start_ms": 3680,
+          "end_ms": 3860,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 3860,
+          "end_ms": 3980,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "小",
+          "start_ms": 3980,
+          "end_ms": 4140,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "颗",
+          "start_ms": 4140,
+          "end_ms": 4360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "粒",
+          "start_ms": 4360,
+          "end_ms": 4480,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "把时间倒回去",
+          "start_ms": 0,
+          "end_ms": 960,
+          "words": [
+            {
+              "text": "把",
+              "start_ms": 0,
+              "end_ms": 80,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "时间",
+              "start_ms": 80,
+              "end_ms": 360,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "倒回去",
+              "start_ms": 360,
+              "end_ms": 960,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "看",
+          "start_ms": 1280,
+          "end_ms": 1440,
+          "words": [
+            {
+              "text": "看",
+              "start_ms": 1280,
+              "end_ms": 1440,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "一整滴咖啡里",
+          "start_ms": 1440,
+          "end_ms": 2620,
+          "words": [
+            {
+              "text": "一整",
+              "start_ms": 1440,
+              "end_ms": 1880,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "滴",
+              "start_ms": 1880,
+              "end_ms": 2080,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "咖啡",
+              "start_ms": 2080,
+              "end_ms": 2440,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "里",
+              "start_ms": 2440,
+              "end_ms": 2620,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "藏着无数悬浮的小颗粒",
+          "start_ms": 2840,
+          "end_ms": 4480,
+          "words": [
+            {
+              "text": "藏",
+              "start_ms": 2840,
+              "end_ms": 3000,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "着",
+              "start_ms": 3000,
+              "end_ms": 3120,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "无数",
+              "start_ms": 3120,
+              "end_ms": 3460,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "悬浮",
+              "start_ms": 3460,
+              "end_ms": 3860,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 3860,
+              "end_ms": 3980,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "小颗粒",
+              "start_ms": 3980,
+              "end_ms": 4480,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "接触线钉扎",
+      "act": 1,
+      "text": "第一个线索：接触线钉扎。表面的微小起伏，能把液滴边缘暂时卡住。",
+      "keywords": [
+        "钉扎",
+        "起伏",
+        "卡住"
+      ],
+      "min_duration_s": 6,
+      "pause_weight": 1,
+      "id": 4,
+      "start_s": 17.5,
+      "end_s": 24,
+      "voice_start_s": 17.64,
+      "voice_duration_ms": 5096,
+      "audio": "audio/voice/04.wav",
+      "words": [
+        {
+          "text": "第",
+          "start_ms": 0,
+          "end_ms": 70,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "一",
+          "start_ms": 70,
+          "end_ms": 140,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "个",
+          "start_ms": 140,
+          "end_ms": 340,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "线",
+          "start_ms": 340,
+          "end_ms": 540,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "索",
+          "start_ms": 540,
+          "end_ms": 800,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "接",
+          "start_ms": 940,
+          "end_ms": 1080,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "触",
+          "start_ms": 1080,
+          "end_ms": 1260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "线",
+          "start_ms": 1260,
+          "end_ms": 1440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "钉",
+          "start_ms": 1440,
+          "end_ms": 1580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "扎",
+          "start_ms": 1580,
+          "end_ms": 1780,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "表",
+          "start_ms": 2040,
+          "end_ms": 2180,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "面",
+          "start_ms": 2180,
+          "end_ms": 2380,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 2380,
+          "end_ms": 2480,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "微",
+          "start_ms": 2480,
+          "end_ms": 2620,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "小",
+          "start_ms": 2620,
+          "end_ms": 2820,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "起",
+          "start_ms": 2820,
+          "end_ms": 3020,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "伏",
+          "start_ms": 3020,
+          "end_ms": 3260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "能",
+          "start_ms": 3400,
+          "end_ms": 3520,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "把",
+          "start_ms": 3520,
+          "end_ms": 3680,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "液",
+          "start_ms": 3680,
+          "end_ms": 3840,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "滴",
+          "start_ms": 3840,
+          "end_ms": 4000,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "边",
+          "start_ms": 4000,
+          "end_ms": 4140,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "缘",
+          "start_ms": 4140,
+          "end_ms": 4340,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "暂",
+          "start_ms": 4340,
+          "end_ms": 4560,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "时",
+          "start_ms": 4560,
+          "end_ms": 4720,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "卡",
+          "start_ms": 4720,
+          "end_ms": 4880,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "住",
+          "start_ms": 4880,
+          "end_ms": 5060,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "第一个线索",
+          "start_ms": 0,
+          "end_ms": 800,
+          "words": [
+            {
+              "text": "第一个",
+              "start_ms": 0,
+              "end_ms": 340,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "线索",
+              "start_ms": 340,
+              "end_ms": 800,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "接触线钉扎",
+          "start_ms": 940,
+          "end_ms": 1780,
+          "words": [
+            {
+              "text": "接触",
+              "start_ms": 940,
+              "end_ms": 1260,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "线",
+              "start_ms": 1260,
+              "end_ms": 1440,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "钉扎",
+              "start_ms": 1440,
+              "end_ms": 1780,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "表面的微小起伏",
+          "start_ms": 2040,
+          "end_ms": 3260,
+          "words": [
+            {
+              "text": "表面",
+              "start_ms": 2040,
+              "end_ms": 2380,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 2380,
+              "end_ms": 2480,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "微小",
+              "start_ms": 2480,
+              "end_ms": 2820,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "起伏",
+              "start_ms": 2820,
+              "end_ms": 3260,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "能把液滴边缘暂时卡住",
+          "start_ms": 3400,
+          "end_ms": 5060,
+          "words": [
+            {
+              "text": "能",
+              "start_ms": 3400,
+              "end_ms": 3520,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "把",
+              "start_ms": 3520,
+              "end_ms": 3680,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "液滴",
+              "start_ms": 3680,
+              "end_ms": 4000,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "边缘",
+              "start_ms": 4000,
+              "end_ms": 4340,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "暂时",
+              "start_ms": 4340,
+              "end_ms": 4720,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "卡住",
+              "start_ms": 4720,
+              "end_ms": 5060,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "失衡的蒸发",
+      "act": 2,
+      "text": "第二个线索：蒸发不均匀。典型条件下，边缘失水，比中心更快。",
+      "keywords": [
+        "蒸发",
+        "边缘",
+        "更快"
+      ],
+      "min_duration_s": 5.5,
+      "pause_weight": 1,
+      "id": 5,
+      "start_s": 24,
+      "end_s": 30.583333333333332,
+      "voice_start_s": 24.14,
+      "voice_duration_ms": 4836,
+      "audio": "audio/voice/05.wav",
+      "words": [
+        {
+          "text": "第",
+          "start_ms": 0,
+          "end_ms": 90,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "二",
+          "start_ms": 90,
+          "end_ms": 180,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "个",
+          "start_ms": 180,
+          "end_ms": 360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "线",
+          "start_ms": 360,
+          "end_ms": 540,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "索",
+          "start_ms": 540,
+          "end_ms": 820,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "蒸",
+          "start_ms": 920,
+          "end_ms": 1080,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "发",
+          "start_ms": 1080,
+          "end_ms": 1240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "不",
+          "start_ms": 1240,
+          "end_ms": 1400,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "均",
+          "start_ms": 1400,
+          "end_ms": 1580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "匀",
+          "start_ms": 1580,
+          "end_ms": 1760,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "典",
+          "start_ms": 2040,
+          "end_ms": 2280,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "型",
+          "start_ms": 2280,
+          "end_ms": 2440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "条",
+          "start_ms": 2440,
+          "end_ms": 2660,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "件",
+          "start_ms": 2660,
+          "end_ms": 2860,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "下",
+          "start_ms": 2860,
+          "end_ms": 3020,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "边",
+          "start_ms": 3160,
+          "end_ms": 3260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "缘",
+          "start_ms": 3260,
+          "end_ms": 3440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "失",
+          "start_ms": 3440,
+          "end_ms": 3620,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "水",
+          "start_ms": 3620,
+          "end_ms": 3820,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "比",
+          "start_ms": 3940,
+          "end_ms": 4040,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "中",
+          "start_ms": 4040,
+          "end_ms": 4240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "心",
+          "start_ms": 4240,
+          "end_ms": 4420,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "更",
+          "start_ms": 4420,
+          "end_ms": 4580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "快",
+          "start_ms": 4580,
+          "end_ms": 4800,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "第二个线索",
+          "start_ms": 0,
+          "end_ms": 820,
+          "words": [
+            {
+              "text": "第二个",
+              "start_ms": 0,
+              "end_ms": 360,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "线索",
+              "start_ms": 360,
+              "end_ms": 820,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "蒸发不均匀",
+          "start_ms": 920,
+          "end_ms": 1760,
+          "words": [
+            {
+              "text": "蒸发",
+              "start_ms": 920,
+              "end_ms": 1240,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "不",
+              "start_ms": 1240,
+              "end_ms": 1400,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "均匀",
+              "start_ms": 1400,
+              "end_ms": 1760,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "典型条件下",
+          "start_ms": 2040,
+          "end_ms": 3020,
+          "words": [
+            {
+              "text": "典型",
+              "start_ms": 2040,
+              "end_ms": 2440,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "条件",
+              "start_ms": 2440,
+              "end_ms": 2860,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "下",
+              "start_ms": 2860,
+              "end_ms": 3020,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "边缘失水",
+          "start_ms": 3160,
+          "end_ms": 3820,
+          "words": [
+            {
+              "text": "边缘",
+              "start_ms": 3160,
+              "end_ms": 3440,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "失水",
+              "start_ms": 3440,
+              "end_ms": 3820,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "比中心更快",
+          "start_ms": 3940,
+          "end_ms": 4800,
+          "words": [
+            {
+              "text": "比",
+              "start_ms": 3940,
+              "end_ms": 4040,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "中心",
+              "start_ms": 4040,
+              "end_ms": 4420,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "更快",
+              "start_ms": 4420,
+              "end_ms": 4800,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "谁来补位",
+      "act": 2,
+      "text": "水少了，边界却不能退。尖角缺掉的这一块，到底由谁来填？",
+      "keywords": [
+        "不能退",
+        "谁来填"
+      ],
+      "min_duration_s": 5,
+      "pause_weight": 1,
+      "id": 6,
+      "start_s": 30.583333333333332,
+      "end_s": 36.666666666666664,
+      "voice_start_s": 30.723333333333333,
+      "voice_duration_ms": 4401,
+      "audio": "audio/voice/06.wav",
+      "words": [
+        {
+          "text": "水",
+          "start_ms": 0,
+          "end_ms": 80,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "少",
+          "start_ms": 80,
+          "end_ms": 280,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "了",
+          "start_ms": 280,
+          "end_ms": 420,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "边",
+          "start_ms": 500,
+          "end_ms": 580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "界",
+          "start_ms": 580,
+          "end_ms": 780,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "却",
+          "start_ms": 780,
+          "end_ms": 960,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "不",
+          "start_ms": 960,
+          "end_ms": 1060,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "能",
+          "start_ms": 1060,
+          "end_ms": 1160,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "退",
+          "start_ms": 1160,
+          "end_ms": 1480,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "尖",
+          "start_ms": 1860,
+          "end_ms": 2020,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "角",
+          "start_ms": 2020,
+          "end_ms": 2200,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "缺",
+          "start_ms": 2200,
+          "end_ms": 2400,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "掉",
+          "start_ms": 2400,
+          "end_ms": 2560,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 2560,
+          "end_ms": 2660,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "这",
+          "start_ms": 2660,
+          "end_ms": 2800,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "一",
+          "start_ms": 2800,
+          "end_ms": 2940,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "块",
+          "start_ms": 2940,
+          "end_ms": 3100,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "到",
+          "start_ms": 3580,
+          "end_ms": 3600,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "底",
+          "start_ms": 3600,
+          "end_ms": 3620,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "由",
+          "start_ms": 3620,
+          "end_ms": 3780,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "谁",
+          "start_ms": 3780,
+          "end_ms": 3980,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "来",
+          "start_ms": 3980,
+          "end_ms": 4120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "填",
+          "start_ms": 4120,
+          "end_ms": 4380,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "水少了",
+          "start_ms": 0,
+          "end_ms": 420,
+          "words": [
+            {
+              "text": "水少",
+              "start_ms": 0,
+              "end_ms": 280,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "了",
+              "start_ms": 280,
+              "end_ms": 420,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "边界却不能退",
+          "start_ms": 500,
+          "end_ms": 1480,
+          "words": [
+            {
+              "text": "边界",
+              "start_ms": 500,
+              "end_ms": 780,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "却",
+              "start_ms": 780,
+              "end_ms": 960,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "不能退",
+              "start_ms": 960,
+              "end_ms": 1480,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "尖角缺掉的这一块",
+          "start_ms": 1860,
+          "end_ms": 3100,
+          "words": [
+            {
+              "text": "尖角",
+              "start_ms": 1860,
+              "end_ms": 2200,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "缺掉",
+              "start_ms": 2200,
+              "end_ms": 2560,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 2560,
+              "end_ms": 2660,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "这",
+              "start_ms": 2660,
+              "end_ms": 2800,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "一块",
+              "start_ms": 2800,
+              "end_ms": 3100,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "到底由谁来填",
+          "start_ms": 3580,
+          "end_ms": 4380,
+          "words": [
+            {
+              "text": "到底",
+              "start_ms": 3580,
+              "end_ms": 3620,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "由",
+              "start_ms": 3620,
+              "end_ms": 3780,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "谁来填",
+              "start_ms": 3780,
+              "end_ms": 4380,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "补偿流冲锋",
+      "act": 2,
+      "text": "靠里面的水！蒸发推动补偿流，水从中心向外涌，补上边缘的缺口。",
+      "keywords": [
+        "补偿流",
+        "向外涌",
+        "补上"
+      ],
+      "min_duration_s": 6,
+      "pause_weight": 2,
+      "id": 7,
+      "start_s": 36.666666666666664,
+      "end_s": 44.81666666666666,
+      "voice_start_s": 36.806666666666665,
+      "voice_duration_ms": 5029,
+      "audio": "audio/voice/07.wav",
+      "words": [
+        {
+          "text": "靠",
+          "start_ms": 0,
+          "end_ms": 120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "里",
+          "start_ms": 120,
+          "end_ms": 260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "面",
+          "start_ms": 260,
+          "end_ms": 420,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 420,
+          "end_ms": 540,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "水",
+          "start_ms": 540,
+          "end_ms": 720,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "蒸",
+          "start_ms": 720,
+          "end_ms": 1000,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "发",
+          "start_ms": 1000,
+          "end_ms": 1160,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "推",
+          "start_ms": 1160,
+          "end_ms": 1380,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "动",
+          "start_ms": 1380,
+          "end_ms": 1540,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "补",
+          "start_ms": 1540,
+          "end_ms": 1720,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "偿",
+          "start_ms": 1720,
+          "end_ms": 1880,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "流",
+          "start_ms": 1880,
+          "end_ms": 2060,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "水",
+          "start_ms": 2400,
+          "end_ms": 2580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "从",
+          "start_ms": 2580,
+          "end_ms": 2760,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "中",
+          "start_ms": 2760,
+          "end_ms": 2920,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "心",
+          "start_ms": 2920,
+          "end_ms": 3120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "向",
+          "start_ms": 3120,
+          "end_ms": 3300,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "外",
+          "start_ms": 3300,
+          "end_ms": 3500,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "涌",
+          "start_ms": 3500,
+          "end_ms": 3720,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "补",
+          "start_ms": 3840,
+          "end_ms": 3960,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "上",
+          "start_ms": 3960,
+          "end_ms": 4140,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "边",
+          "start_ms": 4140,
+          "end_ms": 4340,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "缘",
+          "start_ms": 4340,
+          "end_ms": 4500,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 4500,
+          "end_ms": 4640,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "缺",
+          "start_ms": 4640,
+          "end_ms": 4800,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "口",
+          "start_ms": 4800,
+          "end_ms": 5000,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "靠里面的水",
+          "start_ms": 0,
+          "end_ms": 720,
+          "words": [
+            {
+              "text": "靠里面",
+              "start_ms": 0,
+              "end_ms": 420,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 420,
+              "end_ms": 540,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "水",
+              "start_ms": 540,
+              "end_ms": 720,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "蒸发推动补偿流",
+          "start_ms": 720,
+          "end_ms": 2060,
+          "words": [
+            {
+              "text": "蒸发",
+              "start_ms": 720,
+              "end_ms": 1160,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "推动",
+              "start_ms": 1160,
+              "end_ms": 1540,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "补偿流",
+              "start_ms": 1540,
+              "end_ms": 2060,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "水从中心向外涌",
+          "start_ms": 2400,
+          "end_ms": 3720,
+          "words": [
+            {
+              "text": "水从",
+              "start_ms": 2400,
+              "end_ms": 2760,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "中心",
+              "start_ms": 2760,
+              "end_ms": 3120,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "向外涌",
+              "start_ms": 3120,
+              "end_ms": 3720,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "补上边缘的缺口",
+          "start_ms": 3840,
+          "end_ms": 5000,
+          "words": [
+            {
+              "text": "补上",
+              "start_ms": 3840,
+              "end_ms": 4140,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "边缘",
+              "start_ms": 4140,
+              "end_ms": 4500,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 4500,
+              "end_ms": 4640,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "缺口",
+              "start_ms": 4640,
+              "end_ms": 5000,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "颗粒顺风车",
+      "act": 2,
+      "text": "水一动，咖啡颗粒也搭上顺风车，一路被带到越来越拥挤的边缘。",
+      "keywords": [
+        "顺风车",
+        "拥挤",
+        "边缘"
+      ],
+      "min_duration_s": 5.5,
+      "pause_weight": 1.5,
+      "id": 8,
+      "start_s": 44.81666666666666,
+      "end_s": 51.93333333333333,
+      "voice_start_s": 44.95666666666666,
+      "voice_duration_ms": 4703,
+      "audio": "audio/voice/08.wav",
+      "words": [
+        {
+          "text": "水",
+          "start_ms": 0,
+          "end_ms": 80,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "一",
+          "start_ms": 80,
+          "end_ms": 240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "动",
+          "start_ms": 240,
+          "end_ms": 380,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "咖",
+          "start_ms": 500,
+          "end_ms": 660,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "啡",
+          "start_ms": 660,
+          "end_ms": 820,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "颗",
+          "start_ms": 820,
+          "end_ms": 1020,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "粒",
+          "start_ms": 1020,
+          "end_ms": 1260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "也",
+          "start_ms": 1260,
+          "end_ms": 1420,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "搭",
+          "start_ms": 1420,
+          "end_ms": 1580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "上",
+          "start_ms": 1580,
+          "end_ms": 1740,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "顺",
+          "start_ms": 1740,
+          "end_ms": 1900,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "风",
+          "start_ms": 1900,
+          "end_ms": 2080,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "车",
+          "start_ms": 2080,
+          "end_ms": 2360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "一",
+          "start_ms": 2720,
+          "end_ms": 2820,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "路",
+          "start_ms": 2820,
+          "end_ms": 2960,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "被",
+          "start_ms": 2960,
+          "end_ms": 3120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "带",
+          "start_ms": 3120,
+          "end_ms": 3280,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "到",
+          "start_ms": 3280,
+          "end_ms": 3440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "越",
+          "start_ms": 3440,
+          "end_ms": 3640,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "来",
+          "start_ms": 3640,
+          "end_ms": 3800,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "越",
+          "start_ms": 3800,
+          "end_ms": 3920,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "拥",
+          "start_ms": 3920,
+          "end_ms": 4080,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "挤",
+          "start_ms": 4080,
+          "end_ms": 4260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 4260,
+          "end_ms": 4360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "边",
+          "start_ms": 4360,
+          "end_ms": 4480,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "缘",
+          "start_ms": 4480,
+          "end_ms": 4680,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "水一动",
+          "start_ms": 0,
+          "end_ms": 380,
+          "words": [
+            {
+              "text": "水",
+              "start_ms": 0,
+              "end_ms": 80,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "一动",
+              "start_ms": 80,
+              "end_ms": 380,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "咖啡颗粒也搭上顺风车",
+          "start_ms": 500,
+          "end_ms": 2360,
+          "words": [
+            {
+              "text": "咖啡",
+              "start_ms": 500,
+              "end_ms": 820,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "颗粒",
+              "start_ms": 820,
+              "end_ms": 1260,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "也",
+              "start_ms": 1260,
+              "end_ms": 1420,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "搭",
+              "start_ms": 1420,
+              "end_ms": 1580,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "上",
+              "start_ms": 1580,
+              "end_ms": 1740,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "顺风车",
+              "start_ms": 1740,
+              "end_ms": 2360,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "一路被带到越来越拥挤的边缘",
+          "start_ms": 2720,
+          "end_ms": 4680,
+          "words": [
+            {
+              "text": "一路",
+              "start_ms": 2720,
+              "end_ms": 2960,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "被",
+              "start_ms": 2960,
+              "end_ms": 3120,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "带到",
+              "start_ms": 3120,
+              "end_ms": 3440,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "越来越",
+              "start_ms": 3440,
+              "end_ms": 3920,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "拥挤",
+              "start_ms": 3920,
+              "end_ms": 4260,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 4260,
+              "end_ms": 4360,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "边缘",
+              "start_ms": 4360,
+              "end_ms": 4680,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "筑起堤坝",
+      "act": 2,
+      "text": "水能蒸发，颗粒却留下。一层一层，深色的堤坝就这样堆起来。",
+      "keywords": [
+        "留下",
+        "堤坝",
+        "堆起来"
+      ],
+      "min_duration_s": 5,
+      "pause_weight": 1,
+      "id": 9,
+      "start_s": 51.93333333333333,
+      "end_s": 58,
+      "voice_start_s": 52.07333333333333,
+      "voice_duration_ms": 4596,
+      "audio": "audio/voice/09.wav",
+      "words": [
+        {
+          "text": "水",
+          "start_ms": 0,
+          "end_ms": 60,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "能",
+          "start_ms": 60,
+          "end_ms": 220,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "蒸",
+          "start_ms": 220,
+          "end_ms": 440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "发",
+          "start_ms": 440,
+          "end_ms": 640,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "颗",
+          "start_ms": 760,
+          "end_ms": 920,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "粒",
+          "start_ms": 920,
+          "end_ms": 1100,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "却",
+          "start_ms": 1100,
+          "end_ms": 1240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "留",
+          "start_ms": 1240,
+          "end_ms": 1380,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "下",
+          "start_ms": 1380,
+          "end_ms": 1600,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "一",
+          "start_ms": 1900,
+          "end_ms": 2080,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "层",
+          "start_ms": 2080,
+          "end_ms": 2220,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "一",
+          "start_ms": 2220,
+          "end_ms": 2360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "层",
+          "start_ms": 2360,
+          "end_ms": 2620,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "深",
+          "start_ms": 2840,
+          "end_ms": 2940,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "色",
+          "start_ms": 2940,
+          "end_ms": 3140,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 3140,
+          "end_ms": 3240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "堤",
+          "start_ms": 3240,
+          "end_ms": 3380,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "坝",
+          "start_ms": 3380,
+          "end_ms": 3520,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "就",
+          "start_ms": 3520,
+          "end_ms": 3760,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "这",
+          "start_ms": 3760,
+          "end_ms": 3890,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "样",
+          "start_ms": 3890,
+          "end_ms": 4020,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "堆",
+          "start_ms": 4020,
+          "end_ms": 4260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "起",
+          "start_ms": 4260,
+          "end_ms": 4420,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "来",
+          "start_ms": 4420,
+          "end_ms": 4560,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "水能蒸发",
+          "start_ms": 0,
+          "end_ms": 640,
+          "words": [
+            {
+              "text": "水能",
+              "start_ms": 0,
+              "end_ms": 220,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "蒸发",
+              "start_ms": 220,
+              "end_ms": 640,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "颗粒却留下",
+          "start_ms": 760,
+          "end_ms": 1600,
+          "words": [
+            {
+              "text": "颗粒",
+              "start_ms": 760,
+              "end_ms": 1100,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "却",
+              "start_ms": 1100,
+              "end_ms": 1240,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "留下",
+              "start_ms": 1240,
+              "end_ms": 1600,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "一层一层",
+          "start_ms": 1900,
+          "end_ms": 2620,
+          "words": [
+            {
+              "text": "一层",
+              "start_ms": 1900,
+              "end_ms": 2220,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "一层",
+              "start_ms": 2220,
+              "end_ms": 2620,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "深色的堤坝就这样堆起来",
+          "start_ms": 2840,
+          "end_ms": 4560,
+          "words": [
+            {
+              "text": "深色",
+              "start_ms": 2840,
+              "end_ms": 3140,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 3140,
+              "end_ms": 3240,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "堤坝",
+              "start_ms": 3240,
+              "end_ms": 3520,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "就",
+              "start_ms": 3520,
+              "end_ms": 3760,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "这样",
+              "start_ms": 3760,
+              "end_ms": 4020,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "堆起来",
+              "start_ms": 4020,
+              "end_ms": 4560,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "环的诞生",
+      "act": 3,
+      "text": "水干了，圈留下。一九九七年，自然期刊发表论文，解释了这种颗粒搬运。",
+      "keywords": [
+        "圈留下",
+        "一九九七年",
+        "搬运"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1,
+      "id": 10,
+      "start_s": 58,
+      "end_s": 63.3,
+      "voice_start_s": 58.14,
+      "voice_duration_ms": 5003,
+      "audio": "audio/voice/10.wav",
+      "words": [
+        {
+          "text": "水",
+          "start_ms": 0,
+          "end_ms": 80,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "干",
+          "start_ms": 80,
+          "end_ms": 240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "了",
+          "start_ms": 240,
+          "end_ms": 380,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "圈",
+          "start_ms": 380,
+          "end_ms": 580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "留",
+          "start_ms": 580,
+          "end_ms": 740,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "下",
+          "start_ms": 740,
+          "end_ms": 960,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "一",
+          "start_ms": 1180,
+          "end_ms": 1300,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "九",
+          "start_ms": 1300,
+          "end_ms": 1460,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "九",
+          "start_ms": 1460,
+          "end_ms": 1600,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "七",
+          "start_ms": 1600,
+          "end_ms": 1800,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "年",
+          "start_ms": 1800,
+          "end_ms": 2020,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "自",
+          "start_ms": 2240,
+          "end_ms": 2360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "然",
+          "start_ms": 2360,
+          "end_ms": 2500,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "期",
+          "start_ms": 2500,
+          "end_ms": 2680,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "刊",
+          "start_ms": 2680,
+          "end_ms": 2860,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "发",
+          "start_ms": 2860,
+          "end_ms": 3040,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "表",
+          "start_ms": 3040,
+          "end_ms": 3200,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "论",
+          "start_ms": 3200,
+          "end_ms": 3360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "文",
+          "start_ms": 3360,
+          "end_ms": 3540,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "解",
+          "start_ms": 3720,
+          "end_ms": 3840,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "释",
+          "start_ms": 3840,
+          "end_ms": 4000,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "了",
+          "start_ms": 4000,
+          "end_ms": 4120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "这",
+          "start_ms": 4120,
+          "end_ms": 4260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "种",
+          "start_ms": 4260,
+          "end_ms": 4440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "颗",
+          "start_ms": 4440,
+          "end_ms": 4620,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "粒",
+          "start_ms": 4620,
+          "end_ms": 4780,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "搬",
+          "start_ms": 4780,
+          "end_ms": 4940,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "运",
+          "start_ms": 4940,
+          "end_ms": 4980,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "水干了",
+          "start_ms": 0,
+          "end_ms": 380,
+          "words": [
+            {
+              "text": "水干",
+              "start_ms": 0,
+              "end_ms": 240,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "了",
+              "start_ms": 240,
+              "end_ms": 380,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "圈留下",
+          "start_ms": 380,
+          "end_ms": 960,
+          "words": [
+            {
+              "text": "圈留下",
+              "start_ms": 380,
+              "end_ms": 960,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "一九九七年",
+          "start_ms": 1180,
+          "end_ms": 2020,
+          "words": [
+            {
+              "text": "一九九七年",
+              "start_ms": 1180,
+              "end_ms": 2020,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "自然期刊发表论文",
+          "start_ms": 2240,
+          "end_ms": 3540,
+          "words": [
+            {
+              "text": "自然",
+              "start_ms": 2240,
+              "end_ms": 2500,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "期刊",
+              "start_ms": 2500,
+              "end_ms": 2860,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "发表",
+              "start_ms": 2860,
+              "end_ms": 3200,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "论文",
+              "start_ms": 3200,
+              "end_ms": 3540,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "解释了这种颗粒搬运",
+          "start_ms": 3720,
+          "end_ms": 4980,
+          "words": [
+            {
+              "text": "解释",
+              "start_ms": 3720,
+              "end_ms": 4000,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "了",
+              "start_ms": 4000,
+              "end_ms": 4120,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "这种",
+              "start_ms": 4120,
+              "end_ms": 4440,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "颗粒",
+              "start_ms": 4440,
+              "end_ms": 4780,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "搬运",
+              "start_ms": 4780,
+              "end_ms": 4980,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ],
+      "gap_ms": 220
+    },
+    {
+      "name": "威士忌反转",
+      "act": 3,
+      "text": "威士忌却能出现回流。表面张力差，加上其他成分，可能让沉积更均匀。",
+      "keywords": [
+        "威士忌",
+        "回流",
+        "更均匀"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1.5,
+      "id": 11,
+      "start_s": 63.3,
+      "end_s": 68.93333333333332,
+      "voice_start_s": 63.44,
+      "voice_duration_ms": 5306,
+      "audio": "audio/voice/11.wav",
+      "words": [
+        {
+          "text": "威",
+          "start_ms": 0,
+          "end_ms": 100,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "士",
+          "start_ms": 100,
+          "end_ms": 240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "忌",
+          "start_ms": 240,
+          "end_ms": 440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "却",
+          "start_ms": 440,
+          "end_ms": 620,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "能",
+          "start_ms": 620,
+          "end_ms": 780,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "出",
+          "start_ms": 780,
+          "end_ms": 980,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "现",
+          "start_ms": 980,
+          "end_ms": 1140,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "回",
+          "start_ms": 1140,
+          "end_ms": 1320,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "流",
+          "start_ms": 1320,
+          "end_ms": 1520,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "表",
+          "start_ms": 1780,
+          "end_ms": 1900,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "面",
+          "start_ms": 1900,
+          "end_ms": 2100,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "张",
+          "start_ms": 2100,
+          "end_ms": 2240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "力",
+          "start_ms": 2240,
+          "end_ms": 2380,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "差",
+          "start_ms": 2380,
+          "end_ms": 2580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "加",
+          "start_ms": 2800,
+          "end_ms": 2940,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "上",
+          "start_ms": 2940,
+          "end_ms": 3120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "其",
+          "start_ms": 3120,
+          "end_ms": 3280,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "他",
+          "start_ms": 3280,
+          "end_ms": 3420,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "成",
+          "start_ms": 3420,
+          "end_ms": 3600,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "分",
+          "start_ms": 3600,
+          "end_ms": 3820,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "可",
+          "start_ms": 4000,
+          "end_ms": 4100,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "能",
+          "start_ms": 4100,
+          "end_ms": 4200,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "让",
+          "start_ms": 4200,
+          "end_ms": 4400,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "沉",
+          "start_ms": 4400,
+          "end_ms": 4660,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "积",
+          "start_ms": 4660,
+          "end_ms": 4860,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "更",
+          "start_ms": 4860,
+          "end_ms": 5020,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "均",
+          "start_ms": 5020,
+          "end_ms": 5200,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "匀",
+          "start_ms": 5200,
+          "end_ms": 5280,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "威士忌却能出现回流",
+          "start_ms": 0,
+          "end_ms": 1520,
+          "words": [
+            {
+              "text": "威士忌",
+              "start_ms": 0,
+              "end_ms": 440,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "却",
+              "start_ms": 440,
+              "end_ms": 620,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "能",
+              "start_ms": 620,
+              "end_ms": 780,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "出现",
+              "start_ms": 780,
+              "end_ms": 1140,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "回流",
+              "start_ms": 1140,
+              "end_ms": 1520,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "表面张力差",
+          "start_ms": 1780,
+          "end_ms": 2580,
+          "words": [
+            {
+              "text": "表面张力",
+              "start_ms": 1780,
+              "end_ms": 2380,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "差",
+              "start_ms": 2380,
+              "end_ms": 2580,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "加上其他成分",
+          "start_ms": 2800,
+          "end_ms": 3820,
+          "words": [
+            {
+              "text": "加上",
+              "start_ms": 2800,
+              "end_ms": 3120,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "其他",
+              "start_ms": 3120,
+              "end_ms": 3420,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "成分",
+              "start_ms": 3420,
+              "end_ms": 3820,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "可能让沉积更均匀",
+          "start_ms": 4000,
+          "end_ms": 5280,
+          "words": [
+            {
+              "text": "可能",
+              "start_ms": 4000,
+              "end_ms": 4200,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "让",
+              "start_ms": 4200,
+              "end_ms": 4400,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "沉积",
+              "start_ms": 4400,
+              "end_ms": 4860,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "更均匀",
+              "start_ms": 4860,
+              "end_ms": 5280,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ],
+      "gap_ms": 220
+    },
+    {
+      "name": "打印电子线路",
+      "act": 3,
+      "text": "控制咖啡环，能改善银墨水的沉积，让喷墨打印的电子线路更均匀。",
+      "keywords": [
+        "银墨水",
+        "打印",
+        "电子线路"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1,
+      "id": 12,
+      "start_s": 68.93333333333332,
+      "end_s": 74.26666666666665,
+      "voice_start_s": 69.07333333333332,
+      "voice_duration_ms": 5033,
+      "audio": "audio/voice/12.wav",
+      "words": [
+        {
+          "text": "控",
+          "start_ms": 0,
+          "end_ms": 100,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "制",
+          "start_ms": 100,
+          "end_ms": 280,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "咖",
+          "start_ms": 280,
+          "end_ms": 480,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "啡",
+          "start_ms": 480,
+          "end_ms": 640,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "环",
+          "start_ms": 640,
+          "end_ms": 880,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "能",
+          "start_ms": 1160,
+          "end_ms": 1300,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "改",
+          "start_ms": 1300,
+          "end_ms": 1500,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "善",
+          "start_ms": 1500,
+          "end_ms": 1700,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "银",
+          "start_ms": 1700,
+          "end_ms": 1860,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "墨",
+          "start_ms": 1860,
+          "end_ms": 2080,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "水",
+          "start_ms": 2080,
+          "end_ms": 2240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 2240,
+          "end_ms": 2340,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "沉",
+          "start_ms": 2340,
+          "end_ms": 2520,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "积",
+          "start_ms": 2520,
+          "end_ms": 2760,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "让",
+          "start_ms": 2960,
+          "end_ms": 3080,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "喷",
+          "start_ms": 3080,
+          "end_ms": 3280,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "墨",
+          "start_ms": 3280,
+          "end_ms": 3460,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "打",
+          "start_ms": 3460,
+          "end_ms": 3600,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "印",
+          "start_ms": 3600,
+          "end_ms": 3760,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 3760,
+          "end_ms": 3880,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "电",
+          "start_ms": 3880,
+          "end_ms": 4040,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "子",
+          "start_ms": 4040,
+          "end_ms": 4240,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "线",
+          "start_ms": 4240,
+          "end_ms": 4440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "路",
+          "start_ms": 4440,
+          "end_ms": 4580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "更",
+          "start_ms": 4580,
+          "end_ms": 4760,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "均",
+          "start_ms": 4760,
+          "end_ms": 4940,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "匀",
+          "start_ms": 4940,
+          "end_ms": 5033,
+          "source": "duration_estimate_unmatched"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "控制咖啡环",
+          "start_ms": 0,
+          "end_ms": 880,
+          "words": [
+            {
+              "text": "控制",
+              "start_ms": 0,
+              "end_ms": 280,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "咖啡",
+              "start_ms": 280,
+              "end_ms": 640,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "环",
+              "start_ms": 640,
+              "end_ms": 880,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "能改善银墨水的沉积",
+          "start_ms": 1160,
+          "end_ms": 2760,
+          "words": [
+            {
+              "text": "能",
+              "start_ms": 1160,
+              "end_ms": 1300,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "改善",
+              "start_ms": 1300,
+              "end_ms": 1700,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "银墨水",
+              "start_ms": 1700,
+              "end_ms": 2240,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 2240,
+              "end_ms": 2340,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "沉积",
+              "start_ms": 2340,
+              "end_ms": 2760,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "让喷墨打印的电子线路更均匀",
+          "start_ms": 2960,
+          "end_ms": 5033,
+          "words": [
+            {
+              "text": "让",
+              "start_ms": 2960,
+              "end_ms": 3080,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "喷墨",
+              "start_ms": 3080,
+              "end_ms": 3460,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "打印",
+              "start_ms": 3460,
+              "end_ms": 3760,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 3760,
+              "end_ms": 3880,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "电子线路",
+              "start_ms": 3880,
+              "end_ms": 4580,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "更均匀",
+              "start_ms": 4580,
+              "end_ms": 5033,
+              "source": "includes_estimate"
+            }
+          ]
+        }
+      ],
+      "gap_ms": 220
+    },
+    {
+      "name": "蛋白富集研究",
+      "act": 3,
+      "text": "研究者也用它富集蛋白，探索更灵敏的检测，但不等于临床诊断。",
+      "keywords": [
+        "富集蛋白",
+        "检测",
+        "临床诊断"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1,
+      "id": 13,
+      "start_s": 74.26666666666667,
+      "end_s": 79.56666666666668,
+      "voice_start_s": 74.40666666666667,
+      "voice_duration_ms": 5000,
+      "audio": "audio/voice/13.wav",
+      "words": [
+        {
+          "text": "研",
+          "start_ms": 0,
+          "end_ms": 120,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "究",
+          "start_ms": 120,
+          "end_ms": 300,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "者",
+          "start_ms": 300,
+          "end_ms": 480,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "也",
+          "start_ms": 480,
+          "end_ms": 700,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "用",
+          "start_ms": 700,
+          "end_ms": 840,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "它",
+          "start_ms": 840,
+          "end_ms": 980,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "富",
+          "start_ms": 980,
+          "end_ms": 1160,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "集",
+          "start_ms": 1160,
+          "end_ms": 1320,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "蛋",
+          "start_ms": 1320,
+          "end_ms": 1480,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "白",
+          "start_ms": 1480,
+          "end_ms": 1680,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "探",
+          "start_ms": 1980,
+          "end_ms": 2160,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "索",
+          "start_ms": 2160,
+          "end_ms": 2360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "更",
+          "start_ms": 2360,
+          "end_ms": 2520,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "灵",
+          "start_ms": 2520,
+          "end_ms": 2720,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "敏",
+          "start_ms": 2720,
+          "end_ms": 2860,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 2860,
+          "end_ms": 2980,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "检",
+          "start_ms": 2980,
+          "end_ms": 3140,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "测",
+          "start_ms": 3140,
+          "end_ms": 3420,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "但",
+          "start_ms": 3600,
+          "end_ms": 3720,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "不",
+          "start_ms": 3720,
+          "end_ms": 3880,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "等",
+          "start_ms": 3880,
+          "end_ms": 4020,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "于",
+          "start_ms": 4020,
+          "end_ms": 4200,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "临",
+          "start_ms": 4200,
+          "end_ms": 4360,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "床",
+          "start_ms": 4360,
+          "end_ms": 4580,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "诊",
+          "start_ms": 4580,
+          "end_ms": 4780,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "断",
+          "start_ms": 4780,
+          "end_ms": 4980,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "研究者也用它富集蛋白",
+          "start_ms": 0,
+          "end_ms": 1680,
+          "words": [
+            {
+              "text": "研究者",
+              "start_ms": 0,
+              "end_ms": 480,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "也",
+              "start_ms": 480,
+              "end_ms": 700,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "用",
+              "start_ms": 700,
+              "end_ms": 840,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "它",
+              "start_ms": 840,
+              "end_ms": 980,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "富集蛋白",
+              "start_ms": 980,
+              "end_ms": 1680,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "探索更灵敏的检测",
+          "start_ms": 1980,
+          "end_ms": 3420,
+          "words": [
+            {
+              "text": "探索",
+              "start_ms": 1980,
+              "end_ms": 2360,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "更",
+              "start_ms": 2360,
+              "end_ms": 2520,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "灵敏",
+              "start_ms": 2520,
+              "end_ms": 2860,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 2860,
+              "end_ms": 2980,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "检测",
+              "start_ms": 2980,
+              "end_ms": 3420,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "但不等于临床诊断",
+          "start_ms": 3600,
+          "end_ms": 4980,
+          "words": [
+            {
+              "text": "但",
+              "start_ms": 3600,
+              "end_ms": 3720,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "不",
+              "start_ms": 3720,
+              "end_ms": 3880,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "等于",
+              "start_ms": 3880,
+              "end_ms": 4200,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "临床诊断",
+              "start_ms": 4200,
+              "end_ms": 4980,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ],
+      "gap_ms": 220
+    },
+    {
+      "name": "回到午后",
+      "act": 3,
+      "text": "一圈咖啡渍，是无数颗粒走过的路。小小一滴，藏着流体世界的秩序。",
+      "keywords": [
+        "走过的路",
+        "一滴",
+        "秩序"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1,
+      "id": 14,
+      "start_s": 79.56666666666668,
+      "end_s": 85,
+      "voice_start_s": 79.70666666666668,
+      "voice_duration_ms": 5136,
+      "audio": "audio/voice/14.wav",
+      "words": [
+        {
+          "text": "一",
+          "start_ms": 0,
+          "end_ms": 100,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "圈",
+          "start_ms": 100,
+          "end_ms": 300,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "咖",
+          "start_ms": 300,
+          "end_ms": 480,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "啡",
+          "start_ms": 480,
+          "end_ms": 640,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "渍",
+          "start_ms": 640,
+          "end_ms": 880,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "是",
+          "start_ms": 1120,
+          "end_ms": 1260,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "无",
+          "start_ms": 1260,
+          "end_ms": 1440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "数",
+          "start_ms": 1440,
+          "end_ms": 1600,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "颗",
+          "start_ms": 1600,
+          "end_ms": 1780,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "粒",
+          "start_ms": 1780,
+          "end_ms": 1940,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "走",
+          "start_ms": 1940,
+          "end_ms": 2140,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "过",
+          "start_ms": 2140,
+          "end_ms": 2340,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 2340,
+          "end_ms": 2440,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "路",
+          "start_ms": 2440,
+          "end_ms": 2600,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "小",
+          "start_ms": 2860,
+          "end_ms": 2960,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "小",
+          "start_ms": 2960,
+          "end_ms": 3200,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "一",
+          "start_ms": 3200,
+          "end_ms": 3340,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "滴",
+          "start_ms": 3340,
+          "end_ms": 3520,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "藏",
+          "start_ms": 3700,
+          "end_ms": 3860,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "着",
+          "start_ms": 3860,
+          "end_ms": 3980,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "流",
+          "start_ms": 3980,
+          "end_ms": 4100,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "体",
+          "start_ms": 4100,
+          "end_ms": 4320,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "世",
+          "start_ms": 4320,
+          "end_ms": 4460,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "界",
+          "start_ms": 4460,
+          "end_ms": 4600,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "的",
+          "start_ms": 4600,
+          "end_ms": 4780,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "秩",
+          "start_ms": 4780,
+          "end_ms": 4960,
+          "source": "asr_word_interpolated"
+        },
+        {
+          "text": "序",
+          "start_ms": 4960,
+          "end_ms": 5100,
+          "source": "asr_word_interpolated"
+        }
+      ],
+      "alignment_method": "ASR word boundaries + pinyin string match; characters within ASR words interpolated, unmatched explicitly estimated; not phoneme forced alignment",
+      "phrases": [
+        {
+          "text": "一圈咖啡渍",
+          "start_ms": 0,
+          "end_ms": 880,
+          "words": [
+            {
+              "text": "一圈",
+              "start_ms": 0,
+              "end_ms": 300,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "咖啡渍",
+              "start_ms": 300,
+              "end_ms": 880,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "是无数颗粒走过的路",
+          "start_ms": 1120,
+          "end_ms": 2600,
+          "words": [
+            {
+              "text": "是",
+              "start_ms": 1120,
+              "end_ms": 1260,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "无数",
+              "start_ms": 1260,
+              "end_ms": 1600,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "颗粒",
+              "start_ms": 1600,
+              "end_ms": 1940,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "走过的路",
+              "start_ms": 1940,
+              "end_ms": 2600,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "小小一滴",
+          "start_ms": 2860,
+          "end_ms": 3520,
+          "words": [
+            {
+              "text": "小小",
+              "start_ms": 2860,
+              "end_ms": 3200,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "一滴",
+              "start_ms": 3200,
+              "end_ms": 3520,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        },
+        {
+          "text": "藏着流体世界的秩序",
+          "start_ms": 3700,
+          "end_ms": 5100,
+          "words": [
+            {
+              "text": "藏",
+              "start_ms": 3700,
+              "end_ms": 3860,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "着",
+              "start_ms": 3860,
+              "end_ms": 3980,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "流体",
+              "start_ms": 3980,
+              "end_ms": 4320,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "世界",
+              "start_ms": 4320,
+              "end_ms": 4600,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "的",
+              "start_ms": 4600,
+              "end_ms": 4780,
+              "source": "asr_word_interpolated"
+            },
+            {
+              "text": "秩序",
+              "start_ms": 4780,
+              "end_ms": 5100,
+              "source": "asr_word_interpolated"
+            }
+          ]
+        }
+      ],
+      "gap_ms": 220
+    }
+  ],
+  "act_ends_s": [
+    24,
+    58,
+    85
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "voice": "zm_010",
+  "target_duration_s": 85,
+  "shots": [
+    {
+      "name": "桌面悬案",
+      "act": 1,
+      "text": "一滴咖啡，干了以后，为什么中间浅，颜色却挤在最外圈？",
+      "keywords": [
+        "咖啡",
+        "最外圈"
+      ],
+      "min_duration_s": 5,
+      "pause_weight": 1
+    },
+    {
+      "name": "直觉与现实",
+      "act": 1,
+      "text": "直觉会说：水少了，就往中心缩。可这滴咖啡的边界，偏偏不肯退。",
+      "keywords": [
+        "中心缩",
+        "边界",
+        "不肯退"
+      ],
+      "min_duration_s": 5.5,
+      "pause_weight": 1
+    },
+    {
+      "name": "回到一滴",
+      "act": 1,
+      "text": "把时间倒回去。看，一整滴咖啡里，藏着无数悬浮的小颗粒。",
+      "keywords": [
+        "倒回去",
+        "悬浮",
+        "小颗粒"
+      ],
+      "min_duration_s": 5.5,
+      "pause_weight": 1
+    },
+    {
+      "name": "接触线钉扎",
+      "act": 1,
+      "text": "第一个线索：接触线钉扎。表面的微小起伏，能把液滴边缘暂时卡住。",
+      "keywords": [
+        "钉扎",
+        "起伏",
+        "卡住"
+      ],
+      "min_duration_s": 6,
+      "pause_weight": 1
+    },
+    {
+      "name": "失衡的蒸发",
+      "act": 2,
+      "text": "第二个线索：蒸发不均匀。典型条件下，边缘失水，比中心更快。",
+      "keywords": [
+        "蒸发",
+        "边缘",
+        "更快"
+      ],
+      "min_duration_s": 5.5,
+      "pause_weight": 1
+    },
+    {
+      "name": "谁来补位",
+      "act": 2,
+      "text": "水少了，边界却不能退。尖角缺掉的这一块，到底由谁来填？",
+      "keywords": [
+        "不能退",
+        "谁来填"
+      ],
+      "min_duration_s": 5,
+      "pause_weight": 1
+    },
+    {
+      "name": "补偿流冲锋",
+      "act": 2,
+      "text": "靠里面的水！蒸发推动补偿流，水从中心向外涌，补上边缘的缺口。",
+      "keywords": [
+        "补偿流",
+        "向外涌",
+        "补上"
+      ],
+      "min_duration_s": 6,
+      "pause_weight": 2
+    },
+    {
+      "name": "颗粒顺风车",
+      "act": 2,
+      "text": "水一动，咖啡颗粒也搭上顺风车，一路被带到越来越拥挤的边缘。",
+      "keywords": [
+        "顺风车",
+        "拥挤",
+        "边缘"
+      ],
+      "min_duration_s": 5.5,
+      "pause_weight": 1.5
+    },
+    {
+      "name": "筑起堤坝",
+      "act": 2,
+      "text": "水能蒸发，颗粒却留下。一层一层，深色的堤坝就这样堆起来。",
+      "keywords": [
+        "留下",
+        "堤坝",
+        "堆起来"
+      ],
+      "min_duration_s": 5,
+      "pause_weight": 1
+    },
+    {
+      "name": "环的诞生",
+      "act": 3,
+      "text": "水干了，圈留下。一九九七年，自然期刊发表论文，解释了这种颗粒搬运。",
+      "keywords": [
+        "圈留下",
+        "一九九七年",
+        "搬运"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1,
+      "gap_ms": 220
+    },
+    {
+      "name": "威士忌反转",
+      "act": 3,
+      "text": "威士忌却能出现回流。表面张力差，加上其他成分，可能让沉积更均匀。",
+      "keywords": [
+        "威士忌",
+        "回流",
+        "更均匀"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1.5,
+      "gap_ms": 220
+    },
+    {
+      "name": "打印电子线路",
+      "act": 3,
+      "text": "控制咖啡环，能改善银墨水的沉积，让喷墨打印的电子线路更均匀。",
+      "keywords": [
+        "银墨水",
+        "打印",
+        "电子线路"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1,
+      "gap_ms": 220
+    },
+    {
+      "name": "蛋白富集研究",
+      "act": 3,
+      "text": "研究者也用它富集蛋白，探索更灵敏的检测，但不等于临床诊断。",
+      "keywords": [
+        "富集蛋白",
+        "检测",
+        "临床诊断"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1,
+      "gap_ms": 220
+    },
+    {
+      "name": "回到午后",
+      "act": 3,
+      "text": "一圈咖啡渍，是无数颗粒走过的路。小小一滴，藏着流体世界的秩序。",
+      "keywords": [
+        "走过的路",
+        "一滴",
+        "秩序"
+      ],
+      "min_duration_s": 0,
+      "pause_weight": 1,
+      "gap_ms": 220
+    }
+  ],
+  "act_ends_s": [
+    24,
+    58,
+    85
+  ]
+}
