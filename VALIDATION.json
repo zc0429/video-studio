@@ -65,5 +65,5 @@
   "skill_discovery_in_target_cloud": "not verified",
   "cloud_environment_bound_to_repository": false,
   "research_case_status": "four reported preliminary cases; no full original video review or first-party publishing experiment",
-  "git_remote_verification": "recorded outside distribution after actual upload"
+  "git_remote_verification": "not created: integration returned GraphQL createRepository denied and REST POST /user/repos HTTP 403"
 }
