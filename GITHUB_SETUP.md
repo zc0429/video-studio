@@ -1,11 +1,15 @@
-# GitHub初始化状态
+# GitHub初始化与使用
 
-账号：zc0429；预备仓库：video-studio；要求：私有。
+实际仓库：https://github.com/zc0429/video-studio 。2026-10-24已通过GitHub API核对Owner为zc0429、仓库为Private、当前连接具有写入权限；首次上传前远端没有分支。
 
-本地文件、SOP PDF、便携Skill和完整资源包已备好并通过本地检查。当前GitHub连接可读取账号和现有仓库；GraphQL createRepository与REST POST /user/repos均返回 Resource not accessible by integration（403）。当前会话也没有可用的已登录浏览器控制连接，不能代为点击创建。
+历史记录：当前连接的创建接口曾返回403，用户随后自行创建空仓库并提供链接。本仓库文件在授权的首次上传范围内准备和推送；实际远端提交及关键文件读回在交付记录中核对，不以本文件代替读回证据。
 
-因此还没有创建或上传远端仓库，不能把 https://github.com/zc0429/video-studio 当作已经存在的交付链接。
+## 手机开始下一条视频
 
-手机完成一次创建：打开 https://github.com/new?name=video-studio ，检查Owner为zc0429、名称video-studio，选择Private，不勾选初始化README/许可证/gitignore，创建后把实际链接发回。无需上传任何文件。
+在Codex选择使用此仓库的云环境，发送根目录LAUNCH_TASK.txt中的任务，或按README的简短指令。首次创建环境可能需要Web或桌面入口；移动端具体功能以实际界面为准。
 
-后续由Codex核对实际远端和私有性，再按用户已授权的首次上传继续推送并读回关键文件。若新仓库不在现有GitHub连接可访问范围，届时再定位具体授权缺口。不要为此把仓库改成公开，也不需要在聊天里发送Token或密码。
+开始时要求读取AGENTS.md、PROJECT_MEMORY.md及 `.agents/skills/video-production-director/SKILL.md`。如果Skill未自动出现在目录，仍可直接读取文件并按规范执行；不能把手动读取称为已验证自动发现。
+
+仓库上传不自动建立云环境绑定，也不赋予模型、GPU、付费API或私有存储连接。新任务需检查真实能力。用户只终审时，Codex自审各前期阶段并保留材料，最终交付审核版；不默认发布、投放或联系商家。
+
+后续维护以保存到远端实际分支的版本交接，重开任务时选择保存后的版本。不要将视频母版、帧序列、模型或凭证默认提交Git。
