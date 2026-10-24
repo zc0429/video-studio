@@ -1,4 +1,4 @@
-# Video Studio · 私有视频工作室 v1.3
+# Video Studio · 私有视频工作室 v1.4
 
 以可持续自媒体收益为目标，把选题研究、原创表达、可控制作、最终审片和经营复盘保存在同一个项目里。Codex自主推进制作，用户最终审片。安装/读取仓库本身不自动启动生产、付费生成或公开发布。
 
@@ -28,6 +28,7 @@ Skill未出现在自动目录时，可直接读取真实本地SKILL.md并按规�
 | 账号、收益路径与试点 | [CREATOR_GROWTH.md](CREATOR_GROWTH.md) |
 | 导演Skill | [.agents/skills/video-production-director/SKILL.md](.agents/skills/video-production-director/SKILL.md) |
 | 只做最终审核的模式 | [final-review-mode.md](.agents/skills/video-production-director/references/final-review-mode.md) |
+| 审美依据与偏好 | [参考库](aesthetics/README.md)、[索引](aesthetics/INDEX.json)、[专项方法](.agents/skills/video-production-director/references/art-direction.md)、[规则转译示例](examples/art-direction-study/STYLE_BIBLE.md) |
 | 可复用资源 | [resources/README.md](resources/README.md)、[catalog.json](resources/catalog.json) |
 | 历史案例与知识候选 | [CASEBOOK.md](research/CASEBOOK.md)、[KNOWLEDGE_LEDGER.json](research/KNOWLEDGE_LEDGER.json) |
 | 首轮建议与旧前期示例 | [试点方案](examples/creator-pilot/PLAN.md)、[旧器物前期草案](examples/a-bowl/CONCEPT.md) |
@@ -62,7 +63,7 @@ python3 .agents/skills/video-production-director/scripts/preflight.py projects/n
 
 ## 验证边界
 
-34项辅助脚本测试与本次结构检查可在本仓库运行，具体结果见VALIDATION.json。18个技能行为用例为人工规则对照，尚未做真实客户端代理会话评测；四个账号案例仍是报道预研究，没有原片完整观片或自有发布数据。仓库上传不证明云环境已选中它、Skill自动触发或第三方视频生成已端到端运行。
+34项辅助脚本测试与本次结构检查可在本仓库运行，具体结果见VALIDATION.json。23个技能行为用例为人工规则对照，尚未做真实客户端代理会话评测；四个账号案例仍是报道预研究，没有原片完整观片或自有发布数据。仓库上传不证明云环境已选中它、Skill自动触发或第三方视频生成已端到端运行。
 
 ## 便携包
 
@@ -74,3 +75,9 @@ python3 .agents/skills/video-production-director/scripts/preflight.py projects/n
 ## 最新自检
 
 默认60fps恒定帧率；代码/三维按输出时刻逐帧求值，低帧率素材记录转换方法，不混称原生。当前默认参数在Skill的project.json模板中，比例按发布渠道配置。具体修正和仍待验证项见 [SELF_AUDIT.md](SELF_AUDIT.md)。
+
+## 审美怎样执行
+
+Codex自行按题材选择少量实际看过的参考，把观察与解释转为原创美术规则，再用样张、动态分镜和成片自检验证。详细记录保存在项目内，最终只交你看片与微调，不增加前期确认负担。
+
+主Skill只保留按需入口，先看小索引再读相关卡，不一次加载所有案例。新增三张实际查看过的馆藏静态参考，图像本体不打包；这些参考不冒充电影剪辑/声音研究或经过验证的产出质量。完整说明见 [审美参考库](aesthetics/README.md)。

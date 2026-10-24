@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.4",
+  "purpose": "Small index for on-demand selection; not an automatically loaded prompt or a universal style prescription",
+  "initial_working_set": "one primary card, optionally one complementary card; expand for a named unresolved question",
+  "entries": [
+    {
+      "id": "A001",
+      "title": "月下赏梅：留白与层次",
+      "card": "references/A001.md",
+      "tags": [
+        "quiet",
+        "landscape",
+        "negative_space",
+        "asymmetric_balance"
+      ],
+      "use_for": "一处小亮点、疏密变化与低细节空间怎样共同建立宁静。",
+      "inspection_scope": "still_image_only",
+      "status": "inspected_reference; project transfer remains a hypothesis"
+    },
+    {
+      "id": "A002",
+      "title": "神奈川冲浪里：主导形体与尺度",
+      "card": "references/A002.md",
+      "tags": [
+        "tension",
+        "large_form",
+        "scale",
+        "direction"
+      ],
+      "use_for": "用一个主导大形体建立张力，让小主体和远景提供尺度。",
+      "inspection_scope": "still_image_only",
+      "status": "inspected_reference; project transfer remains a hypothesis"
+    },
+    {
+      "id": "A003",
+      "title": "持水罐的年轻女子：侧光与材质",
+      "card": "references/A003.md",
+      "tags": [
+        "domestic",
+        "side_light",
+        "material",
+        "visual_hierarchy"
+      ],
+      "use_for": "用有方向的侧光组织注意，并区分布、金属与室内空间。",
+      "inspection_scope": "still_image_only",
+      "status": "inspected_reference; project transfer remains a hypothesis"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-10-24",
+  "references": [
+    {
+      "id": "A001",
+      "creator": "Ma Yuan",
+      "title": "Viewing plum blossoms by moonlight",
+      "date": "early 13th century",
+      "source_url": "https://www.metmuseum.org/art/collection/search/44638",
+      "object_id": 44638,
+      "image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP160432.jpg",
+      "image_sha256": "f50dd0380a496ebdc8e46e35d11295892dfdce5b1a1e780fff74f0e21d30b0ac",
+      "image_dimensions": [
+        599,
+        560
+      ],
+      "is_public_domain": true,
+      "usage_basis": "Public Domain on the object page/API; Met Open Access CC0 policy",
+      "policy_url": "https://www.metmuseum.org/policies/image-resources",
+      "checked_at": "2026-10-24",
+      "inspection_method": "downloaded the exact image and personally inspected it with view_image",
+      "inspection_scope": "static visual composition, light/color and material cues only; no motion or audio review",
+      "image_bundled": false
+    },
+    {
+      "id": "A002",
+      "creator": "Katsushika Hokusai",
+      "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)",
+      "date": "ca. 1830–32",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45434",
+      "object_id": 45434,
+      "image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP130155.jpg",
+      "image_sha256": "b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841",
+      "image_dimensions": [
+        600,
+        403
+      ],
+      "is_public_domain": true,
+      "usage_basis": "Public Domain on the object page/API; Met Open Access CC0 policy",
+      "policy_url": "https://www.metmuseum.org/policies/image-resources",
+      "checked_at": "2026-10-24",
+      "inspection_method": "downloaded the exact image and personally inspected it with view_image",
+      "inspection_scope": "static visual composition, light/color and material cues only; no motion or audio review",
+      "image_bundled": false
+    },
+    {
+      "id": "A003",
+      "creator": "Johannes Vermeer",
+      "title": "Young Woman with a Water Pitcher",
+      "date": "ca. 1662",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437881",
+      "object_id": 437881,
+      "image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
+      "image_sha256": "13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9",
+      "image_dimensions": [
+        555,
+        624
+      ],
+      "is_public_domain": true,
+      "usage_basis": "Public Domain on the object page/API; Met Open Access CC0 policy",
+      "policy_url": "https://www.metmuseum.org/policies/image-resources",
+      "checked_at": "2026-10-24",
+      "inspection_method": "downloaded the exact image and personally inspected it with view_image",
+      "inspection_scope": "static visual composition, light/color and material cues only; no motion or audio review",
+      "image_bundled": false
+    }
+  ],
+  "unselected_leads": [
+    {
+      "url": "https://studio.blender.org/projects/spring/pages/about/",
+      "access": "402 on direct page access",
+      "media_reviewed": false,
+      "included_as_aesthetic_evidence": false
+    }
+  ]
+}

@@ -46,6 +46,13 @@ def main():
         default=json.loads(template.read_text())['format']
         for rel in ['README.md','LAUNCH_TASK.txt','.agents/skills/video-production-director/references/final-review-mode.md']:
             if f"{default['fps']}fps" not in (ROOT/rel).read_text():errors.append(f'{rel}: frame-rate default differs from project template')
+    reference_index=ROOT/'aesthetics/INDEX.json'
+    if reference_index.exists():
+        entries=json.loads(reference_index.read_text()).get('entries',[]);seen=set()
+        for entry in entries:
+            if entry['id'] in seen:errors.append('duplicate aesthetic reference ID: '+entry['id'])
+            seen.add(entry['id'])
+            if not (reference_index.parent/entry['card']).is_file():errors.append('missing aesthetic reference card: '+entry['card'])
     manifest=ROOT/'MANIFEST.sha256'
     if manifest.exists():
         for line in manifest.read_text().splitlines():

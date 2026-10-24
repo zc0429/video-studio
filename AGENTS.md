@@ -7,6 +7,7 @@
 2. `PROJECT_MEMORY.md`
 3. 按任务读取技能references；若用户说“我只做最终审核”，读取 `references/final-review-mode.md`。
 4. 选择其它Skill、工具、工作流或资产时，读取 `references/reusable-resources.md` 和根目录 `resources/catalog.json`；先核实实际可用性。
+5. 美术决策时按需读取 `references/art-direction.md`，先查小索引再选相关参考；不默认加载全库、SOP/PDF或所有旧项目。各阶段自检继续由代理完成，用户只终审。
 
 如果技能没有出现在自动目录，直接按本地文件读取并使用；准确说“已读取并按规范执行”，不假称已被客户端自动注册。先定位实际项目根目录，不硬编码/workspace为本项目路径。
 

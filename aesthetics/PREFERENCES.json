@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4",
+  "policy": "Load only relevant entries. Preserve scope and user words; never infer approval of each component from whole-film approval. These are user preferences, not scientific aesthetic laws.",
+  "entries": [
+    {
+      "id": "P001",
+      "status": "explicit_feedback",
+      "scope": "previous attention_orbit_masterpiece film as a whole",
+      "user_words": "视频我看了都很满意",
+      "source": "earlier conversation",
+      "recorded_at": "2026-10-24",
+      "usable_observation": "用户对该次成片整体满意",
+      "not_established": "不能据此推断用户喜欢每个颜色、镜头或所有类似题材；本包不含该片原文件"
+    },
+    {
+      "id": "P002",
+      "status": "explicit_project_preference",
+      "scope": "cinematic narrative films in the earlier remake request",
+      "user_words": "严禁网页 HUD 布局",
+      "source": "earlier conversation, remake brief",
+      "recorded_at": "2026-10-24",
+      "usable_observation": "电影式叙事不默认使用固定四角标题/倒计时/导航布局",
+      "not_established": "不外推为所有数据可视化任务都禁止界面结构"
+    },
+    {
+      "id": "P003",
+      "status": "explicit_workflow_preference",
+      "scope": "current creator workflow",
+      "user_words": "我做微调并且只看产出就好了",
+      "source": "current conversation",
+      "recorded_at": "2026-10-24",
+      "usable_observation": "代理自主筛选参考与自检，用户最终审片微调",
+      "not_established": "不意味着用户已经批准尚未制作的成片，也不授权公开发布"
+    }
+  ]
+}

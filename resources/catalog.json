@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "checked_at": "2026-10-24",
   "status_contract": "packaging status is separate from availability in a particular task",
   "resources": [
@@ -9,7 +9,7 @@
       "source": ".agents/skills/video-production-director/SKILL.md",
       "purpose": "研究、导演流程、最终审核模式和复盘",
       "packaging_status": "bundled",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "runtime_status": "manual_read_supported; automatic_discovery_unverified",
       "validation": "Auxiliary regression tests and repository checks; see VALIDATION.json for current results. No full creative film test."
     },
@@ -125,6 +125,15 @@
       "packaging_status": "bundled",
       "runtime_status": "files_only",
       "validation": "template files and local scaffold checks"
+    },
+    {
+      "id": "aesthetic-reference-index",
+      "kind": "reference_library",
+      "source": "aesthetics/INDEX.json",
+      "purpose": "按题材选少量构图、光线、形体参考与有范围的用户反馈",
+      "packaging_status": "bundled metadata and analysis cards; no image binaries",
+      "runtime_status": "files only; actual chosen sources must be inspected in each project",
+      "validation": "Three exact museum images inspected with source identity/usage checks; no motion/audio review or production-success claim"
     }
   ]
 }

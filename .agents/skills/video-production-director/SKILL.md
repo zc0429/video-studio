@@ -9,13 +9,13 @@ description: Research, plan, produce and improve short videos with evidence-base
 
 This is a director-level workflow, not a video generation model. Follow the user's explicit goals, established approvals, budget, tools, and preferences. User instructions take precedence over this skill. Preserve existing work and record changes. Do not impose the attention theme, HUD layouts, a one-take format, a 12-frame QA count, or a specific clearance size on every film.
 
-Load [workflow](references/workflow.md) for the stage checklist. Load [tool routing](references/tools.md) when selecting implementation tools. Copy the appropriate templates from `assets/`. Use `scripts/preflight.py` only for structured, deterministic project checks; it cannot judge artistic quality.
+Load [workflow](references/workflow.md) for stages and [tool routing](references/tools.md) when selecting tools. Copy templates from `assets/`. Use `scripts/preflight.py` for configuration checks, not aesthetic judgment.
 
-For creator revenue, platform research or popular-video breakdown requests, first read [creator growth](references/creator-growth.md). Start with the buyer, audience and business hypothesis before a film brief. Keep verified observations, reported claims, interpretations and our own experimental results distinct. Version: 1.3.0, reviewed 2026-10-24.
+For creator revenue, platform research or popular-video breakdown requests, first read [creator growth](references/creator-growth.md). Start with the buyer, audience and business hypothesis before a film brief. Keep verified observations, reported claims, interpretations and our own experimental results distinct. Version: 1.4.0, reviewed 2026-10-24.
 
 To initialize a new project, run `python3 scripts/new_project.py <new-directory>` from this skill directory. It refuses to overwrite existing work. Fill in `project.json`, then run `python3 scripts/preflight.py <project.json> --json`. For final media, use `python3 scripts/verify_video.py <video.mp4> --project <project.json> --decode` when ffmpeg/ffprobe are available. These scripts do not generate videos or replace review of the actual film.
 
-When the user delegates production through final review only, read [final-review mode](references/final-review-mode.md). Record the actual delegation, self-review each stage, and produce one review copy without repeatedly asking for script or look approval. This changes the reviewer, not the required development artifacts.
+For delegated final-review-only production, read [final-review mode](references/final-review-mode.md). Record the delegation, self-review each required stage, and produce a review copy without repeated script/look approvals.
 
 ## 1. Classify the request
 
@@ -81,9 +81,9 @@ Do not install a full stack just to write a plan. Do not execute unreviewed comm
 
 ## 6. Review honestly
 
-Inspect storyboard and style consistency before full production. Sample each shot's beginning, middle and end plus transitions, peak motion, text entry/exit and lighting changes. Personally view the exported QA images when image tools are available. Check motion sequences, not only isolated attractive frames.
+For look development or aesthetic review, load [art direction](references/art-direction.md). Select only relevant reference cards and scoped preferences; turn actually inspected observations into original story-specific rules in `STYLE_BIBLE.md`. Self-review style frames and timed animatics under the user's delegation, then record findings and evidence in `ART_REVIEW.md`; do not add intermediate user approvals or use a numeric beauty score as proof.
 
-Measure text clearance according to the project, test target-device readability, and separate music, narration and effects where possible. Inspect technical audio measurements and actually audition where the available tools permit; state any listening/viewing limitation instead of claiming an unavailable check occurred.
+Inspect actual exported QA images, transitions, contiguous motion, text timing and audio as tools permit. Record what was viewed/heard and any blind spots. Technical measurements do not replace aesthetic review.
 
 Check metadata and full decode on the final file. Never infer native motion fps merely from output metadata or distinct hashes. Record the source frame cadence and any retiming/interpolation. A 24fps generated clip exported in a 60fps container is not native 60fps footage. Unique code-rendered frames are supporting evidence only when each was computed for its own timestamp.
 
