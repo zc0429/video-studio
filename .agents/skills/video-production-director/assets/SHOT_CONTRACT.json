@@ -1,0 +1,23 @@
+{
+  "shot_id": "S01",
+  "purpose": "",
+  "start_s": 0,
+  "end_s": 5,
+  "start_state": "",
+  "end_state": "",
+  "main_action": "",
+  "camera": "",
+  "identity_reference": "",
+  "style_reference": "",
+  "lighting": "",
+  "text": [],
+  "text_clearance_px": 60,
+  "audio_cue": "",
+  "method": "not_selected",
+  "source_fps": null,
+  "model_or_tool_version": "",
+  "supported_controls_verified": [],
+  "pass_conditions": [],
+  "trials": [],
+  "trial_limit_override_reason": ""
+}

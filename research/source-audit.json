@@ -1,0 +1,136 @@
+{
+  "checked_at": "2026-10-24",
+  "method": "Public web search and opened text pages; no private analytics or complete source-video review",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "巨量星图新达人手册",
+      "url": "https://www.xingtu.cn/help-center/author/109194",
+      "published_or_updated": "2026-09-22",
+      "access": "full_text",
+      "supports": "入驻与任务资格分开；开始任务前核对账号条件",
+      "limitations": "未登录用户账号；不代表本用户已满足条件",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "S2",
+      "title": "抖音创作者中心",
+      "url": "https://creator.douyin.com/",
+      "published_or_updated": null,
+      "access": "entry_only",
+      "supports": "官方后台入口",
+      "limitations": "未取得后台；页面正文为空，未核对具体字段或菜单",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "S3",
+      "title": "抖音用户服务协议",
+      "url": "https://www.douyin.com/draft/douyin_agreement/douyin_agreement_user.html?id=6773906068725565448",
+      "published_or_updated": "2026-02-13",
+      "access": "full_text",
+      "supports": "非真实/可能混淆音视频标识与原创授权相关条款",
+      "limitations": "AI公告链接正文不可读；发布前看当前产品规范",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "S4",
+      "title": "星图商业内容制作规范",
+      "url": "https://www.xingtu.cn/help-center/author/109250",
+      "published_or_updated": "2026-09-14",
+      "access": "full_text",
+      "supports": "商业任务内容、授权与宣传真实性",
+      "limitations": "商业工作流范围，不外推所有个人视频",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "C01a",
+      "title": "新榜阿盐作品报道",
+      "url": "https://www.newrank.cn/article/detail/34596",
+      "published_or_updated": "2026-07-06",
+      "access": "full_text",
+      "supports": "熟悉神话人物进入新世界的作品线索",
+      "limitations": "未完整观看原片；不证明因果或收益",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "C01b",
+      "title": "新榜AI创作者后续访谈",
+      "url": "https://newrank.cn/article/detail/34717",
+      "published_or_updated": "2026-09-01",
+      "access": "full_text",
+      "supports": "角色资产积累和品牌媒体合作的报道",
+      "limitations": "特定产品导向；是否商业推广未独立核实；无合同实收核验",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "C02",
+      "title": "经济观察报机构发布采访",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30062322",
+      "published_or_updated": "2025-01-30",
+      "access": "full_text",
+      "supports": "冯彬专业积累、参考与手绘修正流程",
+      "limitations": "原站https://www.eeo.com.cn/2025/0130/708884.shtml本次403；当时模型描述不能视为当前通用能力",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "C03a",
+      "title": "新榜无穷小亮早期采访",
+      "url": "https://newrank.cn/article/detail/15267",
+      "published_or_updated": "2020-08-30",
+      "access": "full_text",
+      "supports": "既有影响力、栏目与商业路径线索",
+      "limitations": "历史报道，不是当前后台；未独立核对收入",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "C03b",
+      "title": "中国农大转载作者文章",
+      "url": "https://news.cau.edu.cn/rwgs/b8197a1d09594390b4de714a6e471355.htm",
+      "published_or_updated": "2026-08-24",
+      "access": "full_text",
+      "supports": "展示推理过程的作者自述",
+      "limitations": "个人归因不是效果实验",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "C04a",
+      "title": "新榜作者在数英的彭传明报道",
+      "url": "https://www.digitaling.com/articles/628102.html",
+      "published_or_updated": "2021-11-09",
+      "access": "full_text",
+      "supports": "早期手作到工艺系列演进",
+      "limitations": "历史商业状态不当作现状；传播数据为媒体转述",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "C04b",
+      "title": "人民日报海外版文化报道",
+      "url": "https://paper.people.com.cn/rmrbhwb/pc/content/202412/02/content_30032345.html",
+      "published_or_updated": "2024-12-02",
+      "access": "full_text",
+      "supports": "工艺作品包含真实长周期劳动",
+      "limitations": "未包含可审计收益或完整镜头记录",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "X01",
+      "title": "精选页身份排除样本",
+      "url": "https://jingxuan.douyin.com/m/video/7414441916886011172",
+      "published_or_updated": "2024-09-14",
+      "access": "metadata_only",
+      "supports": "页面作者为AI猎人会种地，不能混为其他山海经作者",
+      "limitations": "无完整观片；未成为效果案例或普通表现对照",
+      "checked_at": "2026-10-24"
+    },
+    {
+      "id": "X02",
+      "title": "小亮第54期候选作品",
+      "url": "https://www.douyin.com/video/7507470107245907200",
+      "published_or_updated": null,
+      "access": "unavailable_video",
+      "supports": "搜索发现候选链接",
+      "limitations": "主站页面正文为空，未观看或提取时间点",
+      "checked_at": "2026-10-24"
+    }
+  ]
+}

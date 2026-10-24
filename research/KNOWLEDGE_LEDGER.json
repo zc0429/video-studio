@@ -1,0 +1,106 @@
+{
+  "version": "1.1",
+  "updated_at": "2026-10-24",
+  "entries": [
+    {
+      "id": "K001",
+      "claim": "熟悉入口加新的具体处境，可能比纯奇观开场更容易理解",
+      "status": "candidate",
+      "evidence_types": [
+        "reported"
+      ],
+      "sources": [
+        {
+          "url_or_local_path": "https://www.newrank.cn/article/detail/34596",
+          "published_or_observed_at": "2026-07-06",
+          "supports": "个案线索，具体限制见CASEBOOK.md",
+          "limitations": "未完整观看原片；不证明因果或收益"
+        }
+      ],
+      "applicable_to": "原创短故事；当前账号未建立基准",
+      "counterexamples": [],
+      "experiments": [],
+      "sample_and_windows": "自有样本=0；未做完整原片观片；缺普通表现对照",
+      "next_test": "同一原创梗概做两个开场草稿，观察主题与目标的理解差异",
+      "promotion_basis": null,
+      "review_due": "首个试点批次复盘后",
+      "change_reason": "用户把自媒体收益设为目标，新增待验证机制",
+      "supersedes": null
+    },
+    {
+      "id": "K002",
+      "claim": "稳定主体参考加人工修正，可能降低跨镜头身份漂移",
+      "status": "candidate",
+      "evidence_types": [
+        "reported"
+      ],
+      "sources": [
+        {
+          "url_or_local_path": "https://m.thepaper.cn/newsDetail_forward_30062322",
+          "published_or_observed_at": "2025-01-30",
+          "supports": "个案线索，具体限制见CASEBOOK.md",
+          "limitations": "原站https://www.eeo.com.cn/2025/0130/708884.shtml本次403；当时模型描述不能视为当前通用能力"
+        }
+      ],
+      "applicable_to": "单器物混合制作；不假设所有模型支持相同控制",
+      "counterexamples": [],
+      "experiments": [],
+      "sample_and_windows": "自有样本=0；未做完整原片观片；缺普通表现对照",
+      "next_test": "用同一杯子规范测三个镜头，记录偏差、耗时与可用时长",
+      "promotion_basis": null,
+      "review_due": "首个试点批次复盘后",
+      "change_reason": "用户把自媒体收益设为目标，新增待验证机制",
+      "supersedes": null
+    },
+    {
+      "id": "K003",
+      "claim": "展示变化或推理依据，可能增强一个视觉概念的观看价值",
+      "status": "candidate",
+      "evidence_types": [
+        "reported"
+      ],
+      "sources": [
+        {
+          "url_or_local_path": "https://newrank.cn/article/detail/15267",
+          "published_or_observed_at": "2020-08-30",
+          "supports": "个案线索，具体限制见CASEBOOK.md",
+          "limitations": "历史报道，不是当前后台；未独立核对收入"
+        }
+      ],
+      "applicable_to": "有可靠内容依据的解释片",
+      "counterexamples": [],
+      "experiments": [],
+      "sample_and_windows": "自有样本=0；未做完整原片观片；缺普通表现对照",
+      "next_test": "同一主题对比只给结论与显示关键过程的Animatic，记录观众理解",
+      "promotion_basis": null,
+      "review_due": "首个试点批次复盘后",
+      "change_reason": "用户把自媒体收益设为目标，新增待验证机制",
+      "supersedes": null
+    },
+    {
+      "id": "K004",
+      "claim": "安静节奏仍可通过主体变化持续传递信息",
+      "status": "candidate",
+      "evidence_types": [
+        "reported"
+      ],
+      "sources": [
+        {
+          "url_or_local_path": "https://www.digitaling.com/articles/628102.html",
+          "published_or_observed_at": "2021-11-09",
+          "supports": "个案线索，具体限制见CASEBOOK.md",
+          "limitations": "历史商业状态不当作现状；传播数据为媒体转述"
+        }
+      ],
+      "applicable_to": "诗意器物片，不冒充真实工艺记录",
+      "counterexamples": [],
+      "experiments": [],
+      "sample_and_windows": "自有样本=0；未做完整原片观片；缺普通表现对照",
+      "next_test": "杯子的三段变化预演，观察各段是否产生新信息、是否理解情绪变化",
+      "promotion_basis": null,
+      "review_due": "首个试点批次复盘后",
+      "change_reason": "用户把自媒体收益设为目标，新增待验证机制",
+      "supersedes": null
+    }
+  ]
+}

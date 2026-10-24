@@ -1,0 +1,69 @@
+{
+  "version": "1.2.0",
+  "date": "2026-10-24",
+  "unit_tests": {
+    "count": 22,
+    "passed": true,
+    "output": "test_cash_and_labor_are_distinct (test_metrics.MetricsTests.test_cash_and_labor_are_distinct) ... ok\ntest_counts_are_integer (test_metrics.MetricsTests.test_counts_are_integer) ... ok\ntest_currency_required (test_metrics.MetricsTests.test_currency_required) ... ok\ntest_different_windows_are_not_pooled (test_metrics.MetricsTests.test_different_windows_are_not_pooled) ... ok\ntest_duplicate_snapshot_rejected (test_metrics.MetricsTests.test_duplicate_snapshot_rejected) ... ok\ntest_empty_template_has_no_results (test_metrics.MetricsTests.test_empty_template_has_no_results) ... ok\ntest_missing_metric_is_not_zero (test_metrics.MetricsTests.test_missing_metric_is_not_zero) ... ok\ntest_nan_is_not_silently_accepted (test_metrics.MetricsTests.test_nan_is_not_silently_accepted) ... ok\ntest_paid_and_organic_are_separate (test_metrics.MetricsTests.test_paid_and_organic_are_separate) ... ok\ntest_unknown_cost_blocks_contribution (test_metrics.MetricsTests.test_unknown_cost_blocks_contribution) ... ok\ntest_zero_denominator_is_unknown (test_metrics.MetricsTests.test_zero_denominator_is_unknown) ... ok\ntest_24_to_60_does_not_pass_native_claim (test_preflight.PreflightTests.test_24_to_60_does_not_pass_native_claim) ... ok\ntest_approval_without_basis_is_not_accepted (test_preflight.PreflightTests.test_approval_without_basis_is_not_accepted) ... ok\ntest_blind_retry_without_diagnosis (test_preflight.PreflightTests.test_blind_retry_without_diagnosis) ... ok\ntest_delegated_authorization_does_not_require_repeat_confirmation (test_preflight.PreflightTests.test_delegated_authorization_does_not_require_repeat_confirmation) ... ok\ntest_development_is_valid_without_fabricated_approvals (test_preflight.PreflightTests.test_development_is_valid_without_fabricated_approvals) ... ok\ntest_missing_story_premise (test_preflight.PreflightTests.test_missing_story_premise) ... ok\ntest_paid_job_needs_budget (test_preflight.PreflightTests.test_paid_job_needs_budget) ... ok\ntest_production_requires_real_record (test_preflight.PreflightTests.test_production_requires_real_record) ... ok\ntest_scaffold_preserves_existing_work (test_preflight.PreflightTests.test_scaffold_preserves_existing_work) ... ok\ntest_timeline_gap_is_rejected (test_preflight.PreflightTests.test_timeline_gap_is_rejected) ... ok\ntest_trial_limit_override_must_be_recorded (test_preflight.PreflightTests.test_trial_limit_override_must_be_recorded) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.004s\n\nOK\n"
+  },
+  "environment_probe": {
+    "tools": [
+      {
+        "name": "python",
+        "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "status": "available",
+        "returncode": 0,
+        "version_line": "Python 3.12.14"
+      },
+      {
+        "name": "node",
+        "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "status": "available",
+        "returncode": 0,
+        "version_line": "v24.19.0"
+      },
+      {
+        "name": "ffmpeg",
+        "path": "/usr/bin/ffmpeg",
+        "status": "available",
+        "returncode": 0,
+        "version_line": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      {
+        "name": "ffprobe",
+        "path": "/usr/bin/ffprobe",
+        "status": "available",
+        "returncode": 0,
+        "version_line": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers"
+      },
+      {
+        "name": "chromium",
+        "path": "/usr/bin/chromium",
+        "status": "available",
+        "returncode": 0,
+        "version_line": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)"
+      },
+      {
+        "name": "blender",
+        "path": "/usr/bin/blender",
+        "status": "available",
+        "returncode": 0,
+        "version_line": "Blender 4.3.2"
+      }
+    ],
+    "limits": "Presence/version only; no GPU, model/API access, fonts, browser automation, license or rendering success is established. Recheck per environment."
+  },
+  "human_pdf": {
+    "pages": 14,
+    "new_section_pages_viewed": [
+      6,
+      7
+    ],
+    "status": "built and sampled"
+  },
+  "third_party_renderer_integration": "not tested",
+  "skill_discovery_in_target_cloud": "not verified",
+  "cloud_environment_bound_to_repository": false,
+  "research_case_status": "four reported preliminary cases; no full original video review or first-party publishing experiment",
+  "git_remote_verification": "recorded outside distribution after actual upload"
+}

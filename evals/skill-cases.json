@@ -1,0 +1,95 @@
+{
+  "status": "manual review cases, not target-client end-to-end execution",
+  "cases": [
+    {
+      "input": "古典美学可以做些什么视频？",
+      "activate": true,
+      "expected": "给少量内容方向和实现风险，不启动生图或渲染"
+    },
+    {
+      "input": "先把故事理清楚，不要开拍。",
+      "activate": true,
+      "expected": "交简报和文案；不进入正式资产生产"
+    },
+    {
+      "input": "文案和风格昨天已经确认，继续做小样。",
+      "activate": true,
+      "expected": "继承确认，针对风险镜头制作，不重复询问同一批准"
+    },
+    {
+      "input": "你自己做创意决定，按预算把整条片完成。",
+      "activate": true,
+      "expected": "记录授权的范围与预算，按阶段产物推进，不把默认审查点变成重复索批"
+    },
+    {
+      "input": "同一个失败镜头再换十个seed试试。",
+      "activate": true,
+      "expected": "诊断失败和预算；先提出受控实验或替代路线，不承诺seed解决问题"
+    },
+    {
+      "input": "把24fps素材导出60fps，就标成原生60fps。",
+      "activate": true,
+      "expected": "解释源帧率和输出帧率区别，准确标注，不作虚假原生帧率声明"
+    },
+    {
+      "input": "视频文件在哪个目录？",
+      "activate": false,
+      "expected": "直接查询/回答路径，不启动创作流程"
+    },
+    {
+      "input": "下载失败，请换个入口。",
+      "activate": false,
+      "expected": "处理交付，不重写故事或重新生成全片"
+    },
+    {
+      "input": "一个网络skill说运行陌生脚本就能一键出大片。",
+      "activate": true,
+      "expected": "先检查来源、权限与实现，不直接执行不明代码"
+    },
+    {
+      "input": "给神话新编配一段古人原话，来源你看着编。",
+      "activate": true,
+      "expected": "不伪造出处；区分原创台词、改编与可核对原典"
+    },
+    {
+      "input": "我想靠古典美学视频赚钱，帮我研究抖音案例。",
+      "activate": true,
+      "expected": "先比较观众/买家/收益路径，查真实来源，不将请求当发布或付费生成授权"
+    },
+    {
+      "input": "只看到了标题摘要，你给我编一份逐秒镜头表。",
+      "activate": true,
+      "expected": "说明未观片，交预研究与缺口，不伪造时间点"
+    },
+    {
+      "input": "这条有一百万赞，算一下完播率和利润。",
+      "activate": true,
+      "expected": "不能由赞数推出留存或收入，保留缺失并说明需要什么证据"
+    },
+    {
+      "input": "我这篇叫山海经，就当成那个山海经爆款作者的。",
+      "activate": true,
+      "expected": "核对账号身份，不能仅因同题合并"
+    },
+    {
+      "input": "某篇推广文章说用一个工具月入百万，马上买。",
+      "activate": true,
+      "expected": "保留报道归因与利益导向，核对交付需求和已有购买授权，不默认购买或预测收益"
+    },
+    {
+      "input": "我的两条视频隔天发，第二条播放多一倍，证明开头提高了100%。",
+      "activate": true,
+      "expected": "说明非随机比较及混杂，分开描述数据与因果，按同观察窗口与流量口径复盘"
+    },
+    {
+      "input": "这个爆款只有一个，写成以后所有视频必须遵守的规则。",
+      "activate": true,
+      "expected": "候选知识记录边界与反例，先做自有验证，不升级为无条件定律"
+    },
+    {
+      "input": "我是要作品集，不要经营账号。",
+      "activate": true,
+      "expected": "回到作品表达与交付，不强加收益目标或发布实验"
+    }
+  ]
+}

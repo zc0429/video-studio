@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.2",
+  "checked_at": "2026-10-24",
+  "status_contract": "packaging status is separate from availability in a particular task",
+  "resources": [
+    {
+      "id": "video-production-director",
+      "kind": "skill",
+      "source": ".agents/skills/video-production-director/SKILL.md",
+      "purpose": "研究、导演流程、最终审核模式和复盘",
+      "packaging_status": "bundled",
+      "version": "1.2.0",
+      "runtime_status": "manual_read_supported; automatic_discovery_unverified",
+      "validation": "22 inherited script tests plus repository structural checks; not a new film production run"
+    },
+    {
+      "id": "remotion-skills",
+      "kind": "skill",
+      "source": "https://github.com/remotion-dev/skills",
+      "purpose": "Remotion开发、字幕、预览和渲染流程",
+      "packaging_status": "referenced",
+      "runtime_status": "unknown_in_new_environment",
+      "checked_at": "2026-10-24",
+      "reference_commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+      "license_note": "核对当前实际用途；API许可字段不是完整使用授权",
+      "installation_status": "not bundled or installed by this repository",
+      "validation": "source metadata/docs review only; no third-party production integration test"
+    },
+    {
+      "id": "remotion",
+      "kind": "software",
+      "source": "https://github.com/remotion-dev/remotion",
+      "purpose": "精确时间线、字幕、图形合成",
+      "packaging_status": "referenced",
+      "runtime_status": "unknown_in_new_environment",
+      "checked_at": "2026-10-24",
+      "reference_commit": "5f234381e88743c1853f286249fc8939f3106e2f",
+      "license_note": "核对当前实际用途；API许可字段不是完整使用授权",
+      "installation_status": "not bundled or installed by this repository",
+      "validation": "source metadata/docs review only; no third-party production integration test"
+    },
+    {
+      "id": "motion-canvas",
+      "kind": "software",
+      "source": "https://github.com/motion-canvas/motion-canvas",
+      "purpose": "矢量动画与旁白同步",
+      "packaging_status": "referenced",
+      "runtime_status": "unknown_in_new_environment",
+      "checked_at": "2026-10-24",
+      "reference_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "license_note": "核对当前实际用途；API许可字段不是完整使用授权",
+      "installation_status": "not bundled or installed by this repository",
+      "validation": "source metadata/docs review only; no third-party production integration test"
+    },
+    {
+      "id": "blender",
+      "kind": "software",
+      "source": "https://github.com/blender/blender",
+      "purpose": "三维器物、相机与材质",
+      "packaging_status": "referenced",
+      "runtime_status": "unknown_in_new_environment",
+      "checked_at": "2026-10-24",
+      "reference_commit": "445db6c5f6399dda622d4d58664e99064a41babf",
+      "license_note": "核对当前实际用途；API许可字段不是完整使用授权",
+      "installation_status": "not bundled or installed by this repository",
+      "validation": "source metadata/docs review only; no third-party production integration test"
+    },
+    {
+      "id": "manim",
+      "kind": "software",
+      "source": "https://github.com/ManimCommunity/manim",
+      "purpose": "概念和数学动画",
+      "packaging_status": "referenced",
+      "runtime_status": "unknown_in_new_environment",
+      "checked_at": "2026-10-24",
+      "reference_commit": "60861574effbc1cabf4782d4dd16db60e83dad02",
+      "license_note": "核对当前实际用途；API许可字段不是完整使用授权",
+      "installation_status": "not bundled or installed by this repository",
+      "validation": "source metadata/docs review only; no third-party production integration test"
+    },
+    {
+      "id": "comfyui",
+      "kind": "workflow_host",
+      "source": "https://github.com/Comfy-Org/ComfyUI",
+      "purpose": "可保存节点工作流，需要另外核实模型与自定义节点",
+      "packaging_status": "referenced",
+      "runtime_status": "unknown_in_new_environment",
+      "checked_at": "2026-10-24",
+      "reference_commit": "7cebca52227c63b4180ceed448cbd7ad22903b6d",
+      "license_note": "核对当前实际用途；API许可字段不是完整使用授权",
+      "installation_status": "not bundled or installed by this repository",
+      "validation": "source metadata/docs review only; no third-party production integration test"
+    },
+    {
+      "id": "ffmpeg",
+      "kind": "software",
+      "source": "https://github.com/FFmpeg/FFmpeg",
+      "purpose": "合成、编码与技术检测",
+      "packaging_status": "referenced",
+      "runtime_status": "unknown_in_new_environment",
+      "checked_at": "2026-10-24",
+      "reference_commit": "9d2d5b1aa39a714ad92cd3dd0253bd3aa7ee8be7",
+      "license_note": "核对当前实际用途；API许可字段不是完整使用授权",
+      "installation_status": "not bundled or installed by this repository",
+      "validation": "source metadata/docs review only; no third-party production integration test"
+    },
+    {
+      "id": "otio",
+      "kind": "software",
+      "source": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO",
+      "purpose": "时间线交换，需要验证适配器",
+      "packaging_status": "referenced",
+      "runtime_status": "unknown_in_new_environment",
+      "checked_at": "2026-10-24",
+      "reference_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "license_note": "核对当前实际用途；API许可字段不是完整使用授权",
+      "installation_status": "not bundled or installed by this repository",
+      "validation": "source metadata/docs review only; no third-party production integration test"
+    },
+    {
+      "id": "project-templates",
+      "kind": "assets",
+      "source": ".agents/skills/video-production-director/assets",
+      "purpose": "简报、镜头合同、案例、资源登记和发布实验",
+      "packaging_status": "bundled",
+      "runtime_status": "files_only",
+      "validation": "template files and local scaffold checks"
+    }
+  ]
+}

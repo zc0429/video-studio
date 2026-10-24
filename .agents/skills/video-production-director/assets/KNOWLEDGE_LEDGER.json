@@ -1,0 +1,21 @@
+{
+  "version": "1.1",
+  "updated_at": "2026-10-24",
+  "entries": [],
+  "entry_contract": {
+    "id": "unique ID",
+    "claim": "scoped actionable claim",
+    "status": "candidate | locally_supported | contradicted | retired",
+    "evidence_types": ["metadata_only | reported | direct_review | first_party_test"],
+    "sources": [{"url_or_local_path": "", "published_or_observed_at": "", "supports": "", "limitations": ""}],
+    "applicable_to": "audience, niche, account stage, format and offer",
+    "counterexamples": [],
+    "experiments": [],
+    "sample_and_windows": "known sample or explicitly not yet tested",
+    "next_test": "one falsifiable test",
+    "promotion_basis": null,
+    "review_due": "date or after named batch",
+    "change_reason": "",
+    "supersedes": null
+  }
+}

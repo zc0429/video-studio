@@ -1,0 +1,113 @@
+{
+  "checked_at": "2026-10-24",
+  "repositories": [
+    {
+      "repository": "motion-canvas/motion-canvas",
+      "url": "https://github.com/motion-canvas/motion-canvas",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-07-02T20:01:32Z",
+      "api_license": "MIT",
+      "commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "commit_date": "2026-07-02T20:01:32Z",
+      "checked_at": "2026-10-24",
+      "verification": "repository metadata, primary README/license where noted; no installation or full production benchmark"
+    },
+    {
+      "repository": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "default_branch": "master",
+      "archived": false,
+      "pushed_at": "2026-10-24T02:43:06Z",
+      "api_license": "GPL-3.0",
+      "commit": "7cebca52227c63b4180ceed448cbd7ad22903b6d",
+      "commit_date": "2026-10-24T02:22:35Z",
+      "checked_at": "2026-10-24",
+      "verification": "repository metadata, primary README/license where noted; no installation or full production benchmark"
+    },
+    {
+      "repository": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-10-24T07:44:25Z",
+      "api_license": "NOASSERTION",
+      "commit": "5f234381e88743c1853f286249fc8939f3106e2f",
+      "commit_date": "2026-10-24T07:44:22Z",
+      "checked_at": "2026-10-24",
+      "verification": "repository metadata, primary README/license where noted; no installation or full production benchmark"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-10-22T15:31:18Z",
+      "api_license": null,
+      "commit": "6c67adcd9cdbe6eb84d76342da89b225f9161cb2",
+      "commit_date": "2026-10-22T15:31:16Z",
+      "checked_at": "2026-10-24",
+      "verification": "repository metadata, primary README/license where noted; no installation or full production benchmark"
+    },
+    {
+      "repository": "ManimCommunity/manim",
+      "url": "https://github.com/ManimCommunity/manim",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-10-24T08:06:59Z",
+      "api_license": "MIT",
+      "commit": "60861574effbc1cabf4782d4dd16db60e83dad02",
+      "commit_date": "2026-10-24T08:06:57Z",
+      "checked_at": "2026-10-24",
+      "verification": "repository metadata, primary README/license where noted; no installation or full production benchmark"
+    },
+    {
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-10-22T21:41:47Z",
+      "api_license": "Apache-2.0",
+      "commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "commit_date": "2026-10-22T21:41:47Z",
+      "checked_at": "2026-10-24",
+      "verification": "repository metadata, primary README/license where noted; no installation or full production benchmark"
+    },
+    {
+      "repository": "FFmpeg/FFmpeg",
+      "url": "https://github.com/FFmpeg/FFmpeg",
+      "default_branch": "master",
+      "archived": false,
+      "pushed_at": "2026-10-24T04:46:16Z",
+      "api_license": "NOASSERTION",
+      "commit": "9d2d5b1aa39a714ad92cd3dd0253bd3aa7ee8be7",
+      "commit_date": "2026-10-24T04:45:33Z",
+      "checked_at": "2026-10-24",
+      "verification": "repository metadata, primary README/license where noted; no installation or full production benchmark"
+    },
+    {
+      "repository": "blender/blender",
+      "url": "https://github.com/blender/blender",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-10-23T22:15:50Z",
+      "api_license": "NOASSERTION",
+      "commit": "445db6c5f6399dda622d4d58664e99064a41babf",
+      "commit_date": "2026-10-23T21:50:55Z",
+      "checked_at": "2026-10-24",
+      "verification": "repository metadata, primary README/license where noted; no installation or full production benchmark"
+    },
+    {
+      "repository": "Wan-Video/Wan2.2",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "default_branch": "main",
+      "archived": false,
+      "pushed_at": "2026-09-21T06:16:22Z",
+      "api_license": "Apache-2.0",
+      "commit": "1ea34ff48f87168174e12956e200b1d908b1c5ff",
+      "commit_date": "2026-09-21T06:16:22Z",
+      "checked_at": "2026-10-24",
+      "verification": "repository metadata, primary README/license where noted; no installation or full production benchmark"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.2",
+  "project_id": "",
+  "resources": [],
+  "record_fields": {
+    "id": "stable project ID",
+    "kind": "skill | software | workflow | model | asset | service",
+    "source": "URL or local file",
+    "version_or_commit": "actual observed version",
+    "license_or_usage_basis": "terms applicable to this exact use",
+    "runtime_status": "unknown | available | tested_here | unavailable",
+    "environment_and_checked_at": "exact environment and date",
+    "required_capability": "the bottleneck it resolves",
+    "test_evidence": "real output/check, or null",
+    "budget_basis": "user scope and actual paid costs if any",
+    "limitations": "what was not established"
+  }
+}
