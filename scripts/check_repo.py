@@ -17,7 +17,7 @@ def main():
             errors.append(f'missing: {rel}')
     counts = {'json': 0, 'python': 0, 'markdown': 0}
     for p in ROOT.rglob('*'):
-        if not p.is_file() or any(part in {'.git', '__pycache__', 'node_modules'} for part in p.relative_to(ROOT).parts):
+        if not p.is_file() or any(part in {'.git', '__pycache__', 'node_modules', '.venv', 'frames', 'cache'} for part in p.relative_to(ROOT).parts):
             continue
         try:
             if p.suffix == '.json':

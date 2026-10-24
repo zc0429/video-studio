@@ -1,0 +1,48 @@
+{"type":"progress","worker":2,"done":60,"total":60,"frame":2519}
+{"type":"progress","worker":1,"done":60,"total":60,"frame":2459}
+{"type":"progress","worker":0,"done":60,"total":60,"frame":2399}
+{"type":"progress","worker":3,"done":60,"total":60,"frame":2579}
+{
+  "workers": 4,
+  "logical_cpus": 3,
+  "fps": 60,
+  "frame_count": 240,
+  "start_frame": 2340,
+  "end_frame": 2580,
+  "wall_s": 17.389736283,
+  "ranges": [
+    {
+      "worker": 0,
+      "range": [
+        2340,
+        2400
+      ],
+      "frames": 60
+    },
+    {
+      "worker": 1,
+      "range": [
+        2400,
+        2460
+      ],
+      "frames": 60
+    },
+    {
+      "worker": 2,
+      "range": [
+        2460,
+        2520
+      ],
+      "frames": 60
+    },
+    {
+      "worker": 3,
+      "range": [
+        2520,
+        2580
+      ],
+      "frames": 60
+    }
+  ],
+  "source_sampling": "seekTo(frameIndex/fps), order-independent; JPEG canvas readback; no realtime capture or duplicate conversion"
+}

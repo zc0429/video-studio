@@ -1,0 +1,86 @@
+[
+  {
+    "shot": 1,
+    "matched_chars": 22,
+    "total_chars": 22,
+    "asr_text": "一滴咖啡干了以后为什么中间浅颜色却挤在最外圈"
+  },
+  {
+    "shot": 2,
+    "matched_chars": 25,
+    "total_chars": 25,
+    "asr_text": "直觉会说水少了就往中心缩可这滴咖啡的边界偏偏不肯退"
+  },
+  {
+    "shot": 3,
+    "matched_chars": 23,
+    "total_chars": 23,
+    "asr_text": "把时间倒回去看一整滴咖啡里藏着无数悬浮的小颗粒"
+  },
+  {
+    "shot": 4,
+    "matched_chars": 27,
+    "total_chars": 27,
+    "asr_text": "第一个线索接触线钉扎表面的微小起伏能把液滴边缘暂时卡住"
+  },
+  {
+    "shot": 5,
+    "matched_chars": 24,
+    "total_chars": 24,
+    "asr_text": "第二个线索蒸发不均匀典型条件下边缘失水比中心更快"
+  },
+  {
+    "shot": 6,
+    "matched_chars": 23,
+    "total_chars": 23,
+    "asr_text": "水少了边界却不能退尖角缺掉的这一块到底由谁来填"
+  },
+  {
+    "shot": 7,
+    "matched_chars": 26,
+    "total_chars": 26,
+    "asr_text": "靠里面的水蒸发推动补偿流水从中心向外涌补上边缘的缺口"
+  },
+  {
+    "shot": 8,
+    "matched_chars": 26,
+    "total_chars": 26,
+    "asr_text": "水一动咖啡颗粒也搭上顺风车一路被带到越来越拥挤的边缘"
+  },
+  {
+    "shot": 9,
+    "matched_chars": 24,
+    "total_chars": 24,
+    "asr_text": "水能蒸发颗粒却留下一层一层深色的堤坝就这样堆起来"
+  },
+  {
+    "shot": 10,
+    "matched_chars": 28,
+    "total_chars": 28,
+    "asr_text": "水干了圈留下一九九七年自然期刊发表论文解释了这种颗粒搬运"
+  },
+  {
+    "shot": 11,
+    "matched_chars": 28,
+    "total_chars": 28,
+    "asr_text": "威士忌却能出现回流表面张力差加上其他成分可能让沉积更均匀"
+  },
+  {
+    "shot": 12,
+    "matched_chars": 26,
+    "total_chars": 27,
+    "asr_text": "控制咖啡环能改善银墨水的沉积让喷墨打印的电子线路更均"
+  },
+  {
+    "shot": 13,
+    "matched_chars": 26,
+    "total_chars": 26,
+    "asr_text": "研究者也用它富集蛋白探索更灵敏的检测但不等于临床诊断"
+  },
+  {
+    "shot": 14,
+    "matched_chars": 27,
+    "total_chars": 27,
+    "asr_text": "一圈咖啡渍是无数颗粒走过的路小小一滴藏着流体世界的秩序"
+  }
+]

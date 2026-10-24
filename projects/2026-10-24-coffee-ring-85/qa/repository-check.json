@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "counts": {
+    "json": 61,
+    "python": 23,
+    "markdown": 64
+  },
+  "errors": [],
+  "limits": "Structure/syntax only, not film quality, market validation or target-client automatic discovery."
+}

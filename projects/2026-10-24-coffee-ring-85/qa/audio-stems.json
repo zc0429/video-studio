@@ -1,0 +1,26 @@
+{
+  "voice-stem.wav": {
+    "duration_s": 85.0,
+    "channels": 1,
+    "rms_dbfs": -18.504518333841585,
+    "sample_peak_dbfs": -1.9911836602138315
+  },
+  "bgm-original.wav": {
+    "duration_s": 85.0,
+    "channels": 2,
+    "rms_dbfs": -29.737941207461603,
+    "sample_peak_dbfs": -12.410499151967239
+  },
+  "sfx-original.wav": {
+    "duration_s": 85.0,
+    "channels": 2,
+    "rms_dbfs": -45.51251220542943,
+    "sample_peak_dbfs": -20.38147761885558
+  },
+  "master.wav": {
+    "duration_s": 85.0,
+    "channels": 2,
+    "rms_dbfs": -17.054286368659305,
+    "sample_peak_dbfs": -1.1471720434870383
+  }
+}

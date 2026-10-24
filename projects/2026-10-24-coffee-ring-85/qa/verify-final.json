@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "width": 1080,
+  "height": 1920,
+  "output_fps": 60.0,
+  "read_frames": 5100,
+  "duration_s": 85.0,
+  "video_codec": "h264",
+  "pixel_format": "yuvj420p",
+  "audio_streams": 1,
+  "frame_timing": {
+    "checked": true,
+    "constant": true,
+    "frames_checked": 5100,
+    "max_grid_error_s": 3.333333467026023e-07,
+    "tolerance_s": 7.161458333333333e-05,
+    "errors": []
+  },
+  "full_decode": true,
+  "errors": [],
+  "native_source_fps_verified": false,
+  "review_scope": "Technical checks only. Uniform timestamps can still contain duplicated/interpolated images. Source cadence, story, image quality, audio listening and actual remote delivery require separate evidence."
+}

@@ -1,0 +1,14 @@
+✔ parallel partitions cover every frame once including remainders (2.188015ms)
+✔ watchdog rejects moving grain/particles with frozen composition (0.339935ms)
+✔ watchdog rejects stale pixels even with moving camera telemetry (0.178641ms)
+✔ speech allocator refuses overlong narration and ends on 5100 frame grid (0.577255ms)
+✔ camera and particles are seek-order independent for parallel workers (1.859678ms)
+✔ three act boundaries stay exact while preserving speech windows (0.404302ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 71.340591

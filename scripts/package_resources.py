@@ -10,7 +10,7 @@ EXCLUDED={'.git','__pycache__','node_modules','.venv','venv','cache','frames'}
 
 def included(path):
     parts=path.relative_to(ROOT).parts
-    return not any(p in EXCLUDED for p in parts) and not path.name.startswith('.env') and path.suffix not in {'.pyc','.mp4','.wav'}
+    return (parts[0]!='projects' or parts==('projects','README.md') or parts==('projects','2026-10-24-coffee-ring-85','BRIEF.md')) and not any(p in EXCLUDED for p in parts) and not path.name.startswith('.env') and path.suffix not in {'.pyc','.mp4','.wav'}
 
 def main():
     dist=ROOT/'dist';dist.mkdir(exist_ok=True)

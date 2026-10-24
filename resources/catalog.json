@@ -144,6 +144,16 @@
       "runtime_status": "unknown_in_new_environment",
       "instructions": ".agents/skills/video-production-director/references/image-assets.md",
       "validation": "No image generation/model connection test performed in this workflow-editing task; discover and verify actual capability per production task"
+    },
+    {
+      "id": "video-studio-engine-v2",
+      "kind": "software",
+      "source": "engine/README.md",
+      "version": "2.0.0",
+      "packaging_status": "bundled original source",
+      "runtime_status": "tested_here: Node24 Chromium154; 6 contract tests; 85s production QA in project",
+      "license_note": "original project code; external runtime dependency licenses separately retained",
+      "limits": "2 CPU quota; no 5x performance or audience/revenue guarantee"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "phase": "delivery",
+  "errors": [],
+  "warnings": [],
+  "derived": {
+    "expected_frames": 5100,
+    "quantized_duration_s": 85.0
+  },
+  "limits": "Config checks only: no aesthetic judgment, no factual verification, no proof of actual approval or native frame generation."
+}

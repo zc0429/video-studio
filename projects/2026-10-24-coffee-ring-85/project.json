@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "project_id": "2026-10-24-coffee-ring-85",
+  "phase": "delivery",
+  "brief": {
+    "audience": "日常物理现象好奇观众",
+    "premise": "三幕追踪一颗咖啡颗粒的流动与沉积",
+    "viewer_takeaway": "典型钉扎液滴的蒸发补偿流，以及条件变化和应用",
+    "kind": "explainer"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration_s": 85,
+    "native_fps_claim": true,
+    "frame_rate_mode": "cfr"
+  },
+  "text_clearance_px": 60,
+  "generation": {
+    "enabled": false,
+    "max_trials_per_shot": 2,
+    "approved_budget": 0,
+    "spent": 0,
+    "unit": "CNY",
+    "requires_paid_jobs": false
+  },
+  "approvals": {
+    "script": {
+      "status": "delegated",
+      "basis": "用户自主升级/生产14镜头85秒并只做最终审核的持续授权",
+      "review_status": "self_reviewed"
+    },
+    "look": {
+      "status": "delegated",
+      "basis": "用户自主升级/生产14镜头85秒并只做最终审核的持续授权",
+      "review_status": "self_reviewed"
+    },
+    "animatic": {
+      "status": "delegated",
+      "basis": "用户自主升级/生产14镜头85秒并只做最终审核的持续授权",
+      "review_status": "self_reviewed"
+    },
+    "pilot": {
+      "status": "delegated",
+      "basis": "用户自主升级/生产14镜头85秒并只做最终审核的持续授权",
+      "review_status": "self_reviewed"
+    }
+  },
+  "shots": [
+    {
+      "id": "1",
+      "start_s": 0,
+      "end_s": 5.5,
+      "purpose": "桌面悬案",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "2",
+      "start_s": 5.5,
+      "end_s": 11.5,
+      "purpose": "直觉与现实",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "3",
+      "start_s": 11.5,
+      "end_s": 17.5,
+      "purpose": "回到一滴",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "4",
+      "start_s": 17.5,
+      "end_s": 24,
+      "purpose": "接触线钉扎",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "5",
+      "start_s": 24,
+      "end_s": 30.583333333333332,
+      "purpose": "失衡的蒸发",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "6",
+      "start_s": 30.583333333333332,
+      "end_s": 36.666666666666664,
+      "purpose": "谁来补位",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "7",
+      "start_s": 36.666666666666664,
+      "end_s": 44.81666666666666,
+      "purpose": "补偿流冲锋",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "8",
+      "start_s": 44.81666666666666,
+      "end_s": 51.93333333333333,
+      "purpose": "颗粒顺风车",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "9",
+      "start_s": 51.93333333333333,
+      "end_s": 58,
+      "purpose": "筑起堤坝",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "10",
+      "start_s": 58,
+      "end_s": 63.3,
+      "purpose": "环的诞生",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "11",
+      "start_s": 63.3,
+      "end_s": 68.93333333333332,
+      "purpose": "威士忌反转",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "12",
+      "start_s": 68.93333333333332,
+      "end_s": 74.26666666666665,
+      "purpose": "打印电子线路",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "13",
+      "start_s": 74.26666666666667,
+      "end_s": 79.56666666666668,
+      "purpose": "蛋白富集研究",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    },
+    {
+      "id": "14",
+      "start_s": 79.56666666666668,
+      "end_s": 85,
+      "purpose": "回到午后",
+      "method": "code",
+      "source_fps": "per_frame",
+      "fps_conversion": "render_at_output_fps"
+    }
+  ],
+  "assets": [
+    {
+      "id": "cafe-plate",
+      "usage": "export",
+      "rights_status": "generated_with_verified_terms",
+      "path": "assets/cafe-plate.png",
+      "provenance": "assets/PROVENANCE.json"
+    },
+    {
+      "id": "original-source-animation",
+      "usage": "export",
+      "rights_status": "owned",
+      "path": "source/film.js"
+    },
+    {
+      "id": "voice",
+      "usage": "export",
+      "rights_status": "licensed",
+      "license": "Apache-2.0 model; generic provided voice"
+    },
+    {
+      "id": "noto",
+      "usage": "export",
+      "rights_status": "licensed",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "id": "music-sfx",
+      "usage": "export",
+      "rights_status": "owned",
+      "path": "engine/audio-studio.js"
+    }
+  ],
+  "audio": {
+    "required": true
+  },
+  "timing": {
+    "selection_basis": "14段1.18语速剪静音PCM实测67.899秒，分幕动作与读图17.101秒，85秒/5100帧",
+    "validation_method": "PCM probe, ASR word refinement and full animatic",
+    "evidence_files": [
+      "timeline.json",
+      "qa/alignment-report.json",
+      "renders/animatic.mp4"
+    ]
+  },
+  "status": "awaiting_user_final_review"
+}

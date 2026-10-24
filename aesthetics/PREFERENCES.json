@@ -31,6 +31,16 @@
       "recorded_at": "2026-10-24",
       "usable_observation": "代理自主筛选参考与自检，用户最终审片微调",
       "not_established": "不意味着用户已经批准尚未制作的成片，也不授权公开发布"
+    },
+    {
+      "id": "P004",
+      "status": "explicit_negative_feedback",
+      "scope": "first 55s coffee ring review, not all science films",
+      "user_words": "枯燥，画面重复，配音难听，无配乐，动效差",
+      "source": "current conversation",
+      "recorded_at": "2026-10-24",
+      "usable_observation": "本片需要叙事推进、多视角、明显有效的音乐、重新选择声音；技术通过不能替代听感与观看体验",
+      "not_established": "不表示用户禁止科普、所有半圆或所有合成语音"
     }
   ]
 }

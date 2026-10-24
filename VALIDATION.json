@@ -1,37 +1,22 @@
 {
-  "version": "1.5.0",
-  "date": "2026-10-24",
-  "unit_tests": {
-    "count": 38,
-    "passed": true,
-    "output": "test_cash_and_labor_are_distinct (test_metrics.MetricsTests.test_cash_and_labor_are_distinct) ... ok\ntest_counts_are_integer (test_metrics.MetricsTests.test_counts_are_integer) ... ok\ntest_currency_required (test_metrics.MetricsTests.test_currency_required) ... ok\ntest_different_windows_are_not_pooled (test_metrics.MetricsTests.test_different_windows_are_not_pooled) ... ok\ntest_duplicate_snapshot_rejected (test_metrics.MetricsTests.test_duplicate_snapshot_rejected) ... ok\ntest_empty_template_has_no_results (test_metrics.MetricsTests.test_empty_template_has_no_results) ... ok\ntest_missing_metric_is_not_zero (test_metrics.MetricsTests.test_missing_metric_is_not_zero) ... ok\ntest_nan_is_not_silently_accepted (test_metrics.MetricsTests.test_nan_is_not_silently_accepted) ... ok\ntest_paid_and_organic_are_separate (test_metrics.MetricsTests.test_paid_and_organic_are_separate) ... ok\ntest_unknown_cost_blocks_contribution (test_metrics.MetricsTests.test_unknown_cost_blocks_contribution) ... ok\ntest_zero_denominator_is_unknown (test_metrics.MetricsTests.test_zero_denominator_is_unknown) ... ok\ntest_24_to_60_does_not_pass_native_claim (test_preflight.PreflightTests.test_24_to_60_does_not_pass_native_claim) ... ok\ntest_approval_without_basis_is_not_accepted (test_preflight.PreflightTests.test_approval_without_basis_is_not_accepted) ... ok\ntest_blind_retry_without_diagnosis (test_preflight.PreflightTests.test_blind_retry_without_diagnosis) ... ok\ntest_delegated_authorization_does_not_require_repeat_confirmation (test_preflight.PreflightTests.test_delegated_authorization_does_not_require_repeat_confirmation) ... ok\ntest_development_can_leave_duration_unresolved (test_preflight.PreflightTests.test_development_can_leave_duration_unresolved) ... ok\ntest_development_is_valid_without_fabricated_approvals (test_preflight.PreflightTests.test_development_is_valid_without_fabricated_approvals) ... ok\ntest_enabled_generation_requires_explicit_cost_classification (test_preflight.PreflightTests.test_enabled_generation_requires_explicit_cost_classification) ... ok\ntest_free_generation_can_proceed_with_existing_delegation (test_preflight.PreflightTests.test_free_generation_can_proceed_with_existing_delegation) ... ok\ntest_longer_story_is_not_limited_to_trial_duration (test_preflight.PreflightTests.test_longer_story_is_not_limited_to_trial_duration) ... ok\ntest_mismatched_source_cadence_needs_conversion_plan (test_preflight.PreflightTests.test_mismatched_source_cadence_needs_conversion_plan) ... ok\ntest_missing_story_premise (test_preflight.PreflightTests.test_missing_story_premise) ... ok\ntest_new_project_inherits_60fps_and_platform_layout (test_preflight.PreflightTests.test_new_project_inherits_60fps_and_platform_layout) ... ok\ntest_new_template_has_no_fixed_final_duration (test_preflight.PreflightTests.test_new_template_has_no_fixed_final_duration) ... ok\ntest_paid_job_needs_budget (test_preflight.PreflightTests.test_paid_job_needs_budget) ... ok\ntest_production_duration_must_fit_frame_grid (test_preflight.PreflightTests.test_production_duration_must_fit_frame_grid) ... ok\ntest_production_needs_selected_duration (test_preflight.PreflightTests.test_production_needs_selected_duration) ... ok\ntest_production_requires_real_record (test_preflight.PreflightTests.test_production_requires_real_record) ... ok\ntest_scaffold_preserves_existing_work (test_preflight.PreflightTests.test_scaffold_preserves_existing_work) ... ok\ntest_timeline_gap_is_rejected (test_preflight.PreflightTests.test_timeline_gap_is_rejected) ... ok\ntest_trial_limit_override_must_be_recorded (test_preflight.PreflightTests.test_trial_limit_override_must_be_recorded) ... ok\ntest_30fps_file_does_not_satisfy_60fps_contract (test_video_verification.ActualVideoTests.test_30fps_file_does_not_satisfy_60fps_contract) ... ok\ntest_60fps_file_passes_timestamps_frames_audio_and_decode (test_video_verification.ActualVideoTests.test_60fps_file_passes_timestamps_frames_audio_and_decode) ... ok\ntest_missing_required_audio_is_reported (test_video_verification.ActualVideoTests.test_missing_required_audio_is_reported) ... ok\ntest_missing_and_repeated_timestamps_are_rejected (test_video_verification.FrameTimingTests.test_missing_and_repeated_timestamps_are_rejected) ... ok\ntest_same_count_and_average_do_not_hide_irregular_spacing (test_video_verification.FrameTimingTests.test_same_count_and_average_do_not_hide_irregular_spacing) ... ok\ntest_time_base_quantization_is_allowed (test_video_verification.FrameTimingTests.test_time_base_quantization_is_allowed) ... ok\ntest_uniform_60fps_timestamps (test_video_verification.FrameTimingTests.test_uniform_60fps_timestamps) ... ok\n\n----------------------------------------------------------------------\nRan 38 tests in 0.697s\n\nOK\n"
-  },
-  "duration_policy": {
-    "new_template_duration_s": null,
-    "development_may_be_unresolved": true,
-    "production_requires_positive_selected_duration": true,
-    "no_40_second_cap": "90-second regression passed"
-  },
-  "image_workflow": {
-    "documentation_and_asset_template": "added",
-    "model_installed_or_image_job_run_this_release": false,
-    "availability_in_new_environment": "must discover actual tools/account/quota; not guaranteed"
-  },
-  "core_skill_bytes": 11952,
-  "human_pdf": {
-    "pages": 15,
-    "searchable": true,
-    "exported_for_visual_review": [
-      1,
-      8
-    ]
-  },
-  "manual_behavior_cases": {
-    "count": 26,
-    "real_agent_execution": false
-  },
-  "aesthetic_reference_review": "inherited v1.4 static-image-only inspection, no new full video or audio study",
-  "archives": "built and checked after this record",
-  "real_creative_film_production": "not performed",
-  "remote_ci_and_commit": "confirmed separately after actual upload"
+  "engine_version": "2.0.0",
+  "director_skill_version": "1.5.0",
+  "engine_contract_tests": 6,
+  "engine_contract_passed": true,
+  "python_regression_tests": 38,
+  "python_regressions_passed": true,
+  "motion_watchdog_passed": true,
+  "actual_keyframes_viewed": 16,
+  "benchmark_5x_achieved": false,
+  "cpu_quota_cores": 2,
+  "film_status": "awaiting_user_final_review",
+  "limits": "Engineering evidence, not aesthetic approval, actual audition, automatic skill registration, popularity or revenue",
+  "final_video_frames": 5100,
+  "final_video_duration_s": 85,
+  "full_decode_passed": true,
+  "cfr_pts_passed": true,
+  "actual_encoded_frame_checks": 2,
+  "browser_playback_ended": true,
+  "browser_display_dropped_frames": 3,
+  "subjective_audition": false
 }
