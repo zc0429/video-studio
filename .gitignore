@@ -7,3 +7,8 @@ projects/**/frames/
 projects/**/*.mp4
 projects/**/*.wav
 projects/**/cache/
+.venv/
+projects/**/renders/
+projects/**/audio/
+projects/**/delivery/*.zip
+projects/**/qa/*-samples/

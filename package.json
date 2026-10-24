@@ -1,0 +1,18 @@
+{
+  "name": "video-studio-engine",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Deterministic parallel Canvas film renderer with motion gates, speech timeline and three-stem audio",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test engine/tests/*.test.js",
+    "render": "node engine/parallel-render.js",
+    "qa": "node engine/qa-watchdog.js"
+  },
+  "dependencies": {
+    "playwright": "1.62.1",
+    "sharp": "0.35.5"
+  }
+}

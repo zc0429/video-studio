@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>可控短片与自媒体收益 SOP v1.5</title>
+  <title>可控短片与自媒体收益 SOP v2.0</title>
   <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -27,9 +27,15 @@ body{max-width:none;margin:0}h1,h2,h3{color:#214f4c;break-after:avoid;line-heigh
 </head>
 <body>
 
-<h1 id="可控短片与自媒体经营-sop-v15">可控短片与自媒体经营 SOP v1.5</h1>
+<h1 id="可控短片与自媒体经营-sop-v20">可控短片与自媒体经营 SOP v2.0</h1>
 <p>适用：神话、诗词、古典美学、器物、自然、知识、品牌与音乐视觉短片。默认单人或小团队，允许代码动画、传统剪辑、三维与
 AI 素材混合。研究核对日期：2026-10-24。</p>
+<h2 id="v2-制作引擎入口">v2 制作引擎入口</h2>
+<p>当前可执行渲染入口是 <a href="engine/README.md">engine/README.md</a>：4–6页并行渲染、3秒构图停滞门禁、14段语音时间轴、Canvas特效、三轨sidechain混音。历史作品脚本仅保留为归档，不再作为新片默认引擎。先
+<code>npm ci</code> 和
+<code>npm test</code>，按项目脚本运行看门狗，再开正式渲染；门禁报告绑定源文件SHA256，修改画面或时间轴后必须重检。</p>
+<p>首个v2项目：<a href="projects/2026-10-24-coffee-ring-85/BRIEF.md">85秒三幕咖啡环</a>。85秒/5100帧/60fps；原理图解、静物生成资产与所有运动在每个输出时间戳求值。语音按真实PCM时长分配，词时间戳方法/不确定性写入timeline；ASR不是强制对齐或试听。</p>
+<p>并行页数不是速度证明：当前环境CPU配额只有2核，短基准没有达到5倍。热门和收益同样不能承诺。成片和大型源工程通过用户授权私有存储交付，默认不把帧序列/声音/影片放Git。</p>
 <h2 id="0-自媒体收益项目先走哪一步">0. 自媒体收益项目先走哪一步</h2>
 <p>当前用户希望通过自媒体创造收益。用于账号经营时，先阅读 <a href="CREATOR_GROWTH.md">自媒体增长与收益流程</a>，明确观众、潜在付费者和第一轮商业假设；先研究同类案例与原始证据，再进入下面的创作流程。账号研究不等于发布或投放授权。文艺作品或私人交付可直接进入创作简报，无需硬加商业指标。</p>
 <p>本轮四个账号预研究均未完成原片观片，导出的机制为候选；详见 <a href="research/CASEBOOK.md">案例簿</a> 与 <a href="research/KNOWLEDGE_LEDGER.json">知识库</a>。</p>
